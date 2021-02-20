@@ -5,6 +5,19 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antioquia Hospitals", "Antioquia Hospitals\Antioquia Hospitals.csproj", "{1A0B4823-C8BD-496E-AEB5-647D58F52E6A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "userInterface", "userInterface", "{75BB6B1E-DDF6-4D51-9E33-492B8BCEB31C}"
+	ProjectSection(SolutionItems) = preProject
+		Antioquia Hospitals\.Designer.cs = Antioquia Hospitals\.Designer.cs
+		Antioquia Hospitals\Interface.cs = Antioquia Hospitals\Interface.cs
+		Antioquia Hospitals\Interface.resx = Antioquia Hospitals\Interface.resx
+		Antioquia Hospitals\Program.cs = Antioquia Hospitals\Program.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "model", "model", "{01FE784B-9E14-4D4B-A944-FB14692ACC54}"
+	ProjectSection(SolutionItems) = preProject
+		DataManager.cs = DataManager.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -16,6 +16,5 @@ namespace Antioquia_Hospitals
         {
             InitializeComponent();
         }
-        
     }
 }

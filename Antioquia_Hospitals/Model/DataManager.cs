@@ -14,7 +14,7 @@ public class DataManager
 		lista = new List<string>();
 
         string realpath = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName + "\\Antioquia_Hospitals\\Data\\database.csv";
-        Console.WriteLine(realpath + "HOLI");
+       // Console.WriteLine(realpath + "HOLI");
 
         readInfo();
 

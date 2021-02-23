@@ -38,7 +38,7 @@ namespace Antioquia_Hospitals
             this.textBoxMunicips = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.gMapControl1 = new GMap.NET.WindowsForms.GMapControl();
+            this.gMap = new GMap.NET.WindowsForms.GMapControl();
             this.textBoxDigitMin = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.textBoxDigitMax = new System.Windows.Forms.TextBox();
@@ -129,31 +129,31 @@ namespace Antioquia_Hospitals
             this.label3.Text = "Filtrar por digito de verificación, desde";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // gMapControl1
+            // gMap
             // 
-            this.gMapControl1.Bearing = 0F;
-            this.gMapControl1.CanDragMap = true;
-            this.gMapControl1.EmptyTileColor = System.Drawing.Color.Navy;
-            this.gMapControl1.GrayScaleMode = false;
-            this.gMapControl1.HelperLineOption = GMap.NET.WindowsForms.HelperLineOptions.DontShow;
-            this.gMapControl1.LevelsKeepInMemmory = 5;
-            this.gMapControl1.Location = new System.Drawing.Point(22, 343);
-            this.gMapControl1.MarkersEnabled = true;
-            this.gMapControl1.MaxZoom = 2;
-            this.gMapControl1.MinZoom = 2;
-            this.gMapControl1.MouseWheelZoomEnabled = true;
-            this.gMapControl1.MouseWheelZoomType = GMap.NET.MouseWheelZoomType.MousePositionAndCenter;
-            this.gMapControl1.Name = "gMapControl1";
-            this.gMapControl1.NegativeMode = false;
-            this.gMapControl1.PolygonsEnabled = true;
-            this.gMapControl1.RetryLoadTile = 0;
-            this.gMapControl1.RoutesEnabled = true;
-            this.gMapControl1.ScaleMode = GMap.NET.WindowsForms.ScaleModes.Integer;
-            this.gMapControl1.SelectedAreaFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(65)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
-            this.gMapControl1.ShowTileGridLines = false;
-            this.gMapControl1.Size = new System.Drawing.Size(468, 342);
-            this.gMapControl1.TabIndex = 8;
-            this.gMapControl1.Zoom = 0D;
+            this.gMap.Bearing = 0F;
+            this.gMap.CanDragMap = true;
+            this.gMap.EmptyTileColor = System.Drawing.Color.Navy;
+            this.gMap.GrayScaleMode = false;
+            this.gMap.HelperLineOption = GMap.NET.WindowsForms.HelperLineOptions.DontShow;
+            this.gMap.LevelsKeepInMemmory = 5;
+            this.gMap.Location = new System.Drawing.Point(22, 343);
+            this.gMap.MarkersEnabled = true;
+            this.gMap.MaxZoom = 2;
+            this.gMap.MinZoom = 2;
+            this.gMap.MouseWheelZoomEnabled = true;
+            this.gMap.MouseWheelZoomType = GMap.NET.MouseWheelZoomType.MousePositionAndCenter;
+            this.gMap.Name = "gMap";
+            this.gMap.NegativeMode = false;
+            this.gMap.PolygonsEnabled = true;
+            this.gMap.RetryLoadTile = 0;
+            this.gMap.RoutesEnabled = true;
+            this.gMap.ScaleMode = GMap.NET.WindowsForms.ScaleModes.Integer;
+            this.gMap.SelectedAreaFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(65)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
+            this.gMap.ShowTileGridLines = false;
+            this.gMap.Size = new System.Drawing.Size(468, 342);
+            this.gMap.TabIndex = 8;
+            this.gMap.Zoom = 0D;
             // 
             // textBoxDigitMin
             // 
@@ -207,6 +207,7 @@ namespace Antioquia_Hospitals
             this.okButtonVerifications.TabIndex = 15;
             this.okButtonVerifications.Text = "Ok";
             this.okButtonVerifications.UseVisualStyleBackColor = true;
+            this.okButtonVerifications.Click += new System.EventHandler(this.buttonOkVerifications_Click);
             // 
             // Interface
             // 
@@ -219,7 +220,7 @@ namespace Antioquia_Hospitals
             this.Controls.Add(this.textBoxDigitMax);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBoxDigitMin);
-            this.Controls.Add(this.gMapControl1);
+            this.Controls.Add(this.gMap);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBoxMunicips);
@@ -245,7 +246,7 @@ namespace Antioquia_Hospitals
         private System.Windows.Forms.TextBox textBoxMunicips;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private GMap.NET.WindowsForms.GMapControl gMapControl1;
+        private GMap.NET.WindowsForms.GMapControl gMap;
         private System.Windows.Forms.TextBox textBoxDigitMin;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBoxDigitMax;

@@ -46,7 +46,7 @@ namespace Antioquia_Hospitals
             {
                 // string realpath = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName + "\\Data\\database.csv";
                 string realpath = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName + "\\Data\\database.csv";
-                Console.WriteLine(realpath);
+                //Console.WriteLine(realpath);
                 StreamReader streamReader = new StreamReader(realpath);
                 counter++;
                 string read;
@@ -109,7 +109,7 @@ namespace Antioquia_Hospitals
             // Console.WriteLine("Aqui estoy");
 
             loadDataBase(false);
-            Console.WriteLine(counter);
+            //Console.WriteLine(counter);
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -158,7 +158,11 @@ namespace Antioquia_Hospitals
 
         private void buttonOkVerifications_Click(object sender, EventArgs e)
         {
-            dT.DefaultView.RowFilter = string.Format("Convert([{0}], 'System.String') > '{1}' AND Convert([{0}], 'System.String') < '{2}'", "Nombre Región", textBoxDigitMin.Text, textBoxDigitMax.Text);
+            Console.WriteLine("Aqui estoy lex");
+            dT.DefaultView.RowFilter = string.Format("Convert([{0}], 'System.String') >= '{1}' AND Convert([{0}], 'System.String') <= '{2}'", "Dígito Verificación NIT", int.Parse(textBoxDigitMin.Text),int.Parse(textBoxDigitMax.Text));
+           
+            // dT.DefaultView.RowFilter = "Dígito Verificación NIT > '" + int.Parse(textBoxDigitMin.Text) + "' AND Dígito Verificación NIT < '" + int.Parse(textBoxDigitMax.Text)+"'";
+
         }
     }
 }

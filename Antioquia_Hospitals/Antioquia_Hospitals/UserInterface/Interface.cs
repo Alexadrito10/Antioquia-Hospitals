@@ -29,6 +29,7 @@ namespace Antioquia_Hospitals
         public Interface()
         {
             InitializeComponent();
+         
             dm = new DataManager();
             loadDataBase(true);
             puntos = new List<PointLatLng>();
@@ -100,16 +101,15 @@ namespace Antioquia_Hospitals
 
 
         }
-        //  dT.DefaultView.RowFilter = string.Format("Convert([{0}], 'System.String') LIKE '{1}*'", "Nombre Municipio", cbFilter.Text);
+      
         private void noFiltersButton_Click(object sender, EventArgs e)
         {
             dT.Clear();
             dT.DefaultView.RowFilter = string.Empty;
             database.DataSource = dT;
-            // Console.WriteLine("Aqui estoy");
 
             loadDataBase(false);
-            //Console.WriteLine(counter);
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -158,11 +158,18 @@ namespace Antioquia_Hospitals
 
         private void buttonOkVerifications_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("Aqui estoy lex");
+            
             dT.DefaultView.RowFilter = string.Format("Convert([{0}], 'System.String') >= '{1}' AND Convert([{0}], 'System.String') <= '{2}'", "Dígito Verificación NIT", int.Parse(textBoxDigitMin.Text),int.Parse(textBoxDigitMax.Text));
            
-            // dT.DefaultView.RowFilter = "Dígito Verificación NIT > '" + int.Parse(textBoxDigitMin.Text) + "' AND Dígito Verificación NIT < '" + int.Parse(textBoxDigitMax.Text)+"'";
+           
+        }
 
+        private void gMap_Load (object sender, EventArgs e)
+        {
+            gMap.MapProvider = GoogleMapProvider.Instance;  //Proveedor del servicio
+            GMaps.Instance.Mode = AccessMode.ServerOnly;
+
+            gMap.Position = new PointLatLng(3.42158, -76.5205);
         }
     }
 }

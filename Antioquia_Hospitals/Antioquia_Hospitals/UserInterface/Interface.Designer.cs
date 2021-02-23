@@ -154,6 +154,7 @@ namespace Antioquia_Hospitals
             this.gMap.Size = new System.Drawing.Size(468, 342);
             this.gMap.TabIndex = 8;
             this.gMap.Zoom = 0D;
+            this.gMap.Load += new System.EventHandler(this.gMap_Load);
             // 
             // textBoxDigitMin
             // 

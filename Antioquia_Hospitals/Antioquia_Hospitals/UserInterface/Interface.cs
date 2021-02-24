@@ -20,6 +20,7 @@ namespace Antioquia_Hospitals
         private DataManager dm;
         private DataTable dT = new DataTable();
         private int counter;
+       
 
 
 
@@ -32,6 +33,7 @@ namespace Antioquia_Hospitals
          
             dm = new DataManager();
             loadDataBase(true);
+            
             puntos = new List<PointLatLng>();
             counter = 0;
         }
@@ -168,6 +170,7 @@ namespace Antioquia_Hospitals
         {
             gMap.MapProvider = GoogleMapProvider.Instance;  //Proveedor del servicio
             GMaps.Instance.Mode = AccessMode.ServerOnly;
+            gMap.Overlays.Add(markers);
 
             gMap.Position = new PointLatLng(3.42158, -76.5205);
         }

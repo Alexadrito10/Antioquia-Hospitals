@@ -24,9 +24,9 @@ namespace Antioquia_Hospitals
 
 
         private List<double> dLat;
-        private List<double> dLongi
+        private List<double> dLongi;
         private List<PointLatLng> puntos;
-        private var hospitals;
+        //private var hospitals;
 
         GMapOverlay markers = new GMapOverlay("markers");
         public Interface()
@@ -116,7 +116,22 @@ namespace Antioquia_Hospitals
             database.DataSource = dT;
 
             loadDataBase(false);
-            
+            labelRegion.Visible = false;
+            comboBoxRegions.Visible = false;
+            okButtonRegion.Visible = false;
+            labelMunicips.Visible = false;
+            textBoxMunicips.Visible = false;
+            okButtonMunicips.Visible = false;
+            labelDigitVerif1.Visible = false;
+            labelDigitVerif2.Visible = false;
+            textBoxDigitMax.Visible = false;
+            textBoxDigitMin.Visible = false;
+            comboBoxRegions.Refresh();
+            textBoxMunicips.Clear();
+            textBoxDigitMax.Clear();
+            textBoxDigitMin.Clear();
+            filterComboBox.Refresh();
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -179,10 +194,10 @@ namespace Antioquia_Hospitals
 
             gMap.Position = new PointLatLng(3.42158, -76.5205);
             createListOfCoordinates();
-            markers();
+            //markers();
         }
 
-        private void markers()   //Mostrar municipios de Colombia
+        /**private void markers()   //Mostrar municipios de Colombia
         {
            
             int i = 0;
@@ -202,7 +217,7 @@ namespace Antioquia_Hospitals
                 }
 
             }
-        }
+        }*/
 
         private void label5_Click(object sender, EventArgs e)
         {
@@ -217,10 +232,10 @@ namespace Antioquia_Hospitals
             while(i<lat.Count)
             {
 
-                lat[i] = lat[i].Replace("(", "");
-                dLat[i] = double.Parse(lat[i]);
-                longi[i] = longi[i].Replace(")", "");
-                dLongi = double.Parse(longi[i]);
+               // lat[i] = lat[i].Replace("(", "");
+                //dLat[i] = double.Parse(lat[i]);
+                //longi[i] = longi[i].Replace(")", "");
+                //dLongi = double.Parse(longi[i]);
                 i++;
             }
         }
@@ -230,17 +245,7 @@ namespace Antioquia_Hospitals
 
             String selection = filterComboBox.Text;
 
-            if (selection.Equals("Región")) {
-                labelRegion.Visible = true;
-                comboBoxRegions.Visible = true;
-                okButtonRegion.Visible = true;
-                labelMunicips.Visible = false;
-                textBoxMunicips.Visible = false;
-                okButtonMunicips.Visible = false;
-                
-
-
-            }else if (selection.Equals("Municipio")) 
+            if (selection.Equals("Región"))
             {
                 labelRegion.Visible = true;
                 comboBoxRegions.Visible = true;
@@ -248,7 +253,41 @@ namespace Antioquia_Hospitals
                 labelMunicips.Visible = false;
                 textBoxMunicips.Visible = false;
                 okButtonMunicips.Visible = false;
+                labelDigitVerif1.Visible = false;
+                labelDigitVerif2.Visible = false;
+                textBoxDigitMax.Visible = false;
+                textBoxDigitMin.Visible = false;
 
+
+
+
+            }
+            else if (selection.Equals("Municipio"))
+            {
+                labelRegion.Visible = false;
+                comboBoxRegions.Visible = false;
+                okButtonRegion.Visible = false;
+                labelMunicips.Visible = true;
+                textBoxMunicips.Visible = true;
+                okButtonMunicips.Visible = true;
+                labelDigitVerif1.Visible = false;
+                labelDigitVerif2.Visible = false;
+                textBoxDigitMax.Visible = false;
+                textBoxDigitMin.Visible = false;
+
+            }
+            else if (selection.Equals("Digito de verificiación NIT")) 
+            {
+                labelRegion.Visible = false;
+                comboBoxRegions.Visible = false;
+                okButtonRegion.Visible = false;
+                labelMunicips.Visible = false;
+                textBoxMunicips.Visible = false;
+                okButtonMunicips.Visible = false;
+                labelDigitVerif1.Visible = true;
+                labelDigitVerif2.Visible = true;
+                textBoxDigitMax.Visible = true;
+                textBoxDigitMin.Visible = true;
             }
 
 

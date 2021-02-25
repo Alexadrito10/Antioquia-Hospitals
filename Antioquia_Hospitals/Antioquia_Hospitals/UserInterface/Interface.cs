@@ -20,15 +20,19 @@ namespace Antioquia_Hospitals
         private DataManager dm;
         private DataTable dT = new DataTable();
         private int counter;
-       
 
 
 
+        private List<double> dLat;
+        private List<double> dLongi
         private List<PointLatLng> puntos;
+        private var hospitals;
 
         GMapOverlay markers = new GMapOverlay("markers");
         public Interface()
         {
+             dLat = new List<double>();
+             dLongi = new List<double>();
             InitializeComponent();
          
             dm = new DataManager();
@@ -92,6 +96,7 @@ namespace Antioquia_Hospitals
 
 
                 }
+                var hospitals = dT.AsEnumerable().Select(p => p.Field<string>("Nombre Sede")).ToList();
             }
             catch (Exception exp)
             {
@@ -173,6 +178,80 @@ namespace Antioquia_Hospitals
             gMap.Overlays.Add(markers);
 
             gMap.Position = new PointLatLng(3.42158, -76.5205);
+            createListOfCoordinates();
+            markers();
+        }
+
+        private void markers()   //Mostrar municipios de Colombia
+        {
+           
+            int i = 0;
+            while (i<dLat.Count) 
+            {
+                GeoCoderStatusCode statusCode;
+                PointLatLng pointLatLng1 = new PointLatLng(dLat[i], dLongi[i]);
+
+                //Las anteriores dos lineas proveen las funcionalidades para hacer la georeferenciación inversa
+
+                if (pointLatLng1 != null)
+                {
+                    GMapMarker marker00 = new GMarkerGoogle(new PointLatLng(pointLatLng1.Value.Lat, pointLatLng1.Value.Lng), GMarkerGoogleType.blue_dot);
+                    marker00.ToolTipText = hospitals[i] + "\n" + pointLatLng1.Value.Lat + "\n" + pointLatLng1.Value.Lng; // Esta linea es solo apariencia
+                    markers.Markers.Add(marker00);
+
+                }
+
+            }
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void createListOfCoordinates()
+        {
+           var lat =  dT.AsEnumerable().Select(p=> p.Field<string>("Latitud")).ToList();
+           var longi = dT.AsEnumerable().Select(p => p.Field<string>("Longitud")).ToList();
+            int i = 0;
+            while(i<lat.Count)
+            {
+
+                lat[i] = lat[i].Replace("(", "");
+                dLat[i] = double.Parse(lat[i]);
+                longi[i] = longi[i].Replace(")", "");
+                dLongi = double.Parse(longi[i]);
+                i++;
+            }
+        }
+
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+            String selection = filterComboBox.Text;
+
+            if (selection.Equals("Región")) {
+                labelRegion.Visible = true;
+                comboBoxRegions.Visible = true;
+                okButtonRegion.Visible = true;
+                labelMunicips.Visible = false;
+                textBoxMunicips.Visible = false;
+                okButtonMunicips.Visible = false;
+                
+
+
+            }else if (selection.Equals("Municipio")) 
+            {
+                labelRegion.Visible = true;
+                comboBoxRegions.Visible = true;
+                okButtonRegion.Visible = true;
+                labelMunicips.Visible = false;
+                textBoxMunicips.Visible = false;
+                okButtonMunicips.Visible = false;
+
+            }
+
+
         }
     }
 }

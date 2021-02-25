@@ -33,18 +33,20 @@ namespace Antioquia_Hospitals
             this.database = new System.Windows.Forms.DataGridView();
             this.noFilterButton = new System.Windows.Forms.Button();
             this.comboBoxRegions = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelRegion = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.textBoxMunicips = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.labelMunicips = new System.Windows.Forms.Label();
+            this.labelDigitVerif1 = new System.Windows.Forms.Label();
             this.gMap = new GMap.NET.WindowsForms.GMapControl();
             this.textBoxDigitMin = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.labelDigitVerif2 = new System.Windows.Forms.Label();
             this.textBoxDigitMax = new System.Windows.Forms.TextBox();
             this.okButtonRegion = new System.Windows.Forms.Button();
             this.okButtonMunicips = new System.Windows.Forms.Button();
             this.okButtonVerifications = new System.Windows.Forms.Button();
+            this.filterComboBox = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.database)).BeginInit();
             this.SuspendLayout();
             // 
@@ -84,17 +86,19 @@ namespace Antioquia_Hospitals
             this.comboBoxRegions.Name = "comboBoxRegions";
             this.comboBoxRegions.Size = new System.Drawing.Size(125, 21);
             this.comboBoxRegions.TabIndex = 2;
+            this.comboBoxRegions.Visible = false;
             this.comboBoxRegions.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // label1
+            // labelRegion
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(506, 44);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Filtrar por región";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.labelRegion.AutoSize = true;
+            this.labelRegion.Location = new System.Drawing.Point(506, 44);
+            this.labelRegion.Name = "labelRegion";
+            this.labelRegion.Size = new System.Drawing.Size(82, 13);
+            this.labelRegion.TabIndex = 3;
+            this.labelRegion.Text = "Filtrar por región";
+            this.labelRegion.Visible = false;
+            this.labelRegion.Click += new System.EventHandler(this.label1_Click);
             // 
             // contextMenuStrip1
             // 
@@ -107,27 +111,30 @@ namespace Antioquia_Hospitals
             this.textBoxMunicips.Name = "textBoxMunicips";
             this.textBoxMunicips.Size = new System.Drawing.Size(125, 20);
             this.textBoxMunicips.TabIndex = 5;
+            this.textBoxMunicips.Visible = false;
             this.textBoxMunicips.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // label2
+            // labelMunicips
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(506, 91);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 13);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Filtrar por municipio";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.labelMunicips.AutoSize = true;
+            this.labelMunicips.Location = new System.Drawing.Point(506, 91);
+            this.labelMunicips.Name = "labelMunicips";
+            this.labelMunicips.Size = new System.Drawing.Size(97, 13);
+            this.labelMunicips.TabIndex = 6;
+            this.labelMunicips.Text = "Filtrar por municipio";
+            this.labelMunicips.Visible = false;
+            this.labelMunicips.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
+            // labelDigitVerif1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(506, 132);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(185, 13);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Filtrar por digito de verificación, desde";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.labelDigitVerif1.AutoSize = true;
+            this.labelDigitVerif1.Location = new System.Drawing.Point(506, 132);
+            this.labelDigitVerif1.Name = "labelDigitVerif1";
+            this.labelDigitVerif1.Size = new System.Drawing.Size(185, 13);
+            this.labelDigitVerif1.TabIndex = 7;
+            this.labelDigitVerif1.Text = "Filtrar por digito de verificación, desde";
+            this.labelDigitVerif1.Visible = false;
+            this.labelDigitVerif1.Click += new System.EventHandler(this.label3_Click);
             // 
             // gMap
             // 
@@ -162,16 +169,18 @@ namespace Antioquia_Hospitals
             this.textBoxDigitMin.Name = "textBoxDigitMin";
             this.textBoxDigitMin.Size = new System.Drawing.Size(83, 20);
             this.textBoxDigitMin.TabIndex = 9;
+            this.textBoxDigitMin.Visible = false;
             // 
-            // label4
+            // labelDigitVerif2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(780, 132);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(33, 13);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "hasta";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.labelDigitVerif2.AutoSize = true;
+            this.labelDigitVerif2.Location = new System.Drawing.Point(780, 132);
+            this.labelDigitVerif2.Name = "labelDigitVerif2";
+            this.labelDigitVerif2.Size = new System.Drawing.Size(33, 13);
+            this.labelDigitVerif2.TabIndex = 10;
+            this.labelDigitVerif2.Text = "hasta";
+            this.labelDigitVerif2.Visible = false;
+            this.labelDigitVerif2.Click += new System.EventHandler(this.label4_Click);
             // 
             // textBoxDigitMax
             // 
@@ -179,6 +188,7 @@ namespace Antioquia_Hospitals
             this.textBoxDigitMax.Name = "textBoxDigitMax";
             this.textBoxDigitMax.Size = new System.Drawing.Size(79, 20);
             this.textBoxDigitMax.TabIndex = 11;
+            this.textBoxDigitMax.Visible = false;
             // 
             // okButtonRegion
             // 
@@ -188,6 +198,7 @@ namespace Antioquia_Hospitals
             this.okButtonRegion.TabIndex = 12;
             this.okButtonRegion.Text = "Ok";
             this.okButtonRegion.UseVisualStyleBackColor = true;
+            this.okButtonRegion.Visible = false;
             this.okButtonRegion.Click += new System.EventHandler(this.buttonOkRegion_Click);
             // 
             // okButtonMunicips
@@ -198,6 +209,7 @@ namespace Antioquia_Hospitals
             this.okButtonMunicips.TabIndex = 14;
             this.okButtonMunicips.Text = "Ok";
             this.okButtonMunicips.UseVisualStyleBackColor = true;
+            this.okButtonMunicips.Visible = false;
             this.okButtonMunicips.Click += new System.EventHandler(this.buttonOkMunicips_Click);
             // 
             // okButtonVerifications
@@ -208,24 +220,50 @@ namespace Antioquia_Hospitals
             this.okButtonVerifications.TabIndex = 15;
             this.okButtonVerifications.Text = "Ok";
             this.okButtonVerifications.UseVisualStyleBackColor = true;
+            this.okButtonVerifications.Visible = false;
             this.okButtonVerifications.Click += new System.EventHandler(this.buttonOkVerifications_Click);
+            // 
+            // filterComboBox
+            // 
+            this.filterComboBox.FormattingEnabled = true;
+            this.filterComboBox.Items.AddRange(new object[] {
+            "Región",
+            "Municipio",
+            "Digito de verificiación NIT"});
+            this.filterComboBox.Location = new System.Drawing.Point(985, 44);
+            this.filterComboBox.Name = "filterComboBox";
+            this.filterComboBox.Size = new System.Drawing.Size(121, 21);
+            this.filterComboBox.TabIndex = 16;
+            this.filterComboBox.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged_1);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(886, 49);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(93, 13);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "Seleccione el filtro";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // Interface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.filterComboBox);
             this.Controls.Add(this.okButtonVerifications);
             this.Controls.Add(this.okButtonMunicips);
             this.Controls.Add(this.okButtonRegion);
             this.Controls.Add(this.textBoxDigitMax);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.labelDigitVerif2);
             this.Controls.Add(this.textBoxDigitMin);
             this.Controls.Add(this.gMap);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.labelDigitVerif1);
+            this.Controls.Add(this.labelMunicips);
             this.Controls.Add(this.textBoxMunicips);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelRegion);
             this.Controls.Add(this.comboBoxRegions);
             this.Controls.Add(this.noFilterButton);
             this.Controls.Add(this.database);
@@ -242,18 +280,20 @@ namespace Antioquia_Hospitals
         private System.Windows.Forms.DataGridView database;
         private System.Windows.Forms.Button noFilterButton;
         private System.Windows.Forms.ComboBox comboBoxRegions;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelRegion;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.TextBox textBoxMunicips;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelMunicips;
+        private System.Windows.Forms.Label labelDigitVerif1;
         private GMap.NET.WindowsForms.GMapControl gMap;
         private System.Windows.Forms.TextBox textBoxDigitMin;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labelDigitVerif2;
         private System.Windows.Forms.TextBox textBoxDigitMax;
         private System.Windows.Forms.Button okButtonRegion;
         private System.Windows.Forms.Button okButtonMunicips;
         private System.Windows.Forms.Button okButtonVerifications;
+        private System.Windows.Forms.ComboBox filterComboBox;
+        private System.Windows.Forms.Label label5;
     }
 }
 

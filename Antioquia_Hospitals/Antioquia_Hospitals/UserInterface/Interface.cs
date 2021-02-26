@@ -21,7 +21,7 @@ namespace Antioquia_Hospitals
 {
     public partial class Interface : Form
     {
-        private DataManager dm;
+        
         private DataTable dT = new DataTable();
         private int counter;
         int[] regions;
@@ -39,7 +39,7 @@ namespace Antioquia_Hospitals
         {
 
             InitializeComponent();
-            dm = new DataManager();
+            
             loadDataBase(true);
             
             puntos = new List<PointLatLng>();

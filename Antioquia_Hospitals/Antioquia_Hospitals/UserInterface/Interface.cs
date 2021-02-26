@@ -347,7 +347,7 @@ namespace Antioquia_Hospitals
 
         private void buttonOkMunicips_Click(object sender, EventArgs e)
         {
-            
+            markers.Clear();
             dT.DefaultView.RowFilter = string.Format("Convert([{0}], 'System.String') LIKE '%{1}%'", "Nombre Municipio", textBoxMunicips.Text);
             cities = dT.DefaultView.ToTable().Rows.Cast<DataRow>().Select(p => p.Field<string>("Nombre Municipio")).ToList();
             hospitals = dT.DefaultView.ToTable().Rows.Cast<DataRow>().Select(p => p.Field<string>("Nombre Sede")).ToList();

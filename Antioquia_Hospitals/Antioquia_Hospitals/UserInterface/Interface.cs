@@ -13,6 +13,9 @@ using GMap.NET.WindowsForms.Markers;
 using GMap.NET.MapProviders;
 using System.IO;
 using System.Globalization;
+using LiveCharts.Wpf;
+using LiveCharts;
+using LiveCharts.Defaults;
 
 namespace Antioquia_Hospitals
 {
@@ -21,21 +24,21 @@ namespace Antioquia_Hospitals
         private DataManager dm;
         private DataTable dT = new DataTable();
         private int counter;
-
+        int[] regions;
 
 
         private double[] dLat;
         private double[] dLongi;
         private List<PointLatLng> puntos;
         private List<string> hospitals;
-        //private var hospitals;
+        private List<string> cities;
+
 
         GMapOverlay markers = new GMapOverlay("markers");
         public Interface()
         {
 
             InitializeComponent();
-         
             dm = new DataManager();
             loadDataBase(true);
             
@@ -79,16 +82,10 @@ namespace Antioquia_Hospitals
                     dT.Columns.Add("Longitud");
 
                 }
-
-                //bool titles=true;
-
-                //Console.WriteLine("Esta es el streamReader: "+streamReader.ReadLine());
                 while ((read = streamReader.ReadLine()) != null)
                 {
 
                     string[] rowRaw = read.Split(',');
-
-                    //Console.WriteLine("Esta es la variable read :"+ read);
 
 
                     dT.Rows.Add(rowRaw);
@@ -97,17 +94,192 @@ namespace Antioquia_Hospitals
 
 
                 }
-                hospitals = dT.AsEnumerable().Select(p => p.Field<string>("Nombre Sede")).ToList();
+                
+                charts();
             }
+
             catch (Exception exp)
             {
-                //Console.WriteLine(exp.Message);
-                //Console.WriteLine(exp.ToString());
 
             }
 
 
 
+        }
+
+        private void charts()
+        {
+            getNumRegions();
+            pieChart1.Series.Clear();
+            Func<ChartPoint, String> labelPoint = chartPoint => string.Format("{0}({1:P})", chartPoint.Y, chartPoint.Participation);
+
+            pieChart1.Series = new SeriesCollection
+            {
+                 new PieSeries {
+                Title = "Norte",
+                Values = new ChartValues<ObservableValue>{ new ObservableValue(regions[0])},
+                DataLabels = true,
+                LabelPoint = labelPoint
+
+                },
+                 new PieSeries {
+                Title = "Nordeste",
+                Values = new ChartValues<ObservableValue>{ new ObservableValue(regions[1])},
+                DataLabels = true,
+                LabelPoint = labelPoint
+
+                },
+                 new PieSeries {
+                Title = "Suroeste",
+                Values = new ChartValues<ObservableValue>{ new ObservableValue(regions[2])},
+                DataLabels = true,
+                LabelPoint = labelPoint
+
+                },
+                 new PieSeries {
+                Title = "Occidente",
+                Values = new ChartValues<ObservableValue>{ new ObservableValue(regions[3])},
+                DataLabels = true,
+                LabelPoint = labelPoint
+
+                },
+                 new PieSeries {
+                Title = "Oriente",
+                Values = new ChartValues<ObservableValue>{ new ObservableValue(regions[4])},
+                DataLabels = true,
+                LabelPoint = labelPoint
+
+                },
+                 new PieSeries {
+                Title = "Urabá",
+                Values = new ChartValues<ObservableValue>{ new ObservableValue(regions[5])},
+                DataLabels = true,
+                LabelPoint = labelPoint
+
+                },
+                 new PieSeries {
+                Title = "Bajo Cauca",
+                Values = new ChartValues<ObservableValue>{ new ObservableValue(regions[6])},
+                DataLabels = true,
+                LabelPoint = labelPoint
+
+                },
+                 new PieSeries {
+                Title = "Magdalena Medio",
+                Values = new ChartValues<ObservableValue>{ new ObservableValue(regions[7])},
+                DataLabels = true,
+                LabelPoint = labelPoint
+
+                },
+                 new PieSeries {
+                Title = "Valle de Aburrá",
+                Values = new ChartValues<ObservableValue>{ new ObservableValue(regions[8])},
+                DataLabels = true,
+                LabelPoint = labelPoint
+
+                },
+
+
+            };
+            cartesianChart1.AxisY = new AxesCollection
+            {
+                 new Axis {
+                Title = "Hospitales por region",
+                Labels = new[]{"Norte","Nordeste", "Suroeste", "Occidente","Oriente","Urabá","Bajo Cauca","Magdalena Medio","Valle de Aburra"},
+                Separator = new Separator{Step = 1}
+
+                },
+
+
+            };
+
+            cartesianChart1.Series.Clear();
+            
+            cartesianChart2.AxisX = new AxesCollection
+            {
+                 new Axis {
+                Title = "Hospitales por region",
+                Labels = new[]{"Norte","Nordeste", "Suroeste", "Occidente","Oriente","Urabá","Bajo Cauca","Magdalena Medio","Valle de Aburra"},
+                Separator = new Separator{Step = 1},
+                
+
+                },
+
+
+            };
+
+            cartesianChart2.Series.Clear();
+            
+
+            SeriesCollection sc1 = new SeriesCollection
+                    {
+                        new RowSeries
+                        {
+                            Title = "Cantidad",
+                            Values = new ChartValues<int>{regions[0],regions[1], regions[2], regions[3], regions[4], regions[5], regions[6], regions[7], regions[8] },
+                        },
+                    };
+            cartesianChart1.Series = sc1;
+            SeriesCollection sc2 = new SeriesCollection
+                    {
+                        new ColumnSeries
+                        {
+                            Title = "Cantidad",
+                            Values = new ChartValues<int>{regions[0],regions[1], regions[2], regions[3], regions[4], regions[5], regions[6], regions[7], regions[8] },
+                        },
+                    };
+            
+            cartesianChart2.Series = sc2;
+
+        }
+
+        private void getNumRegions()
+        {
+            regions = new int[9];
+            string[] regionsS = dT.DefaultView.ToTable().Rows.Cast<DataRow>().Select(p => p.Field<string>("Nombre Región")).ToArray();
+            int c = 0;
+            while (c < regionsS.Length)
+            {
+                if(regionsS[c] == "Norte")
+                {
+                    regions[0]++;
+                }
+                else if (regionsS[c] == "Nordeste")
+                {
+                    regions[1]++;
+                }
+                else if (regionsS[c] == "Suroeste")
+                {
+                    regions[2]++;
+                }
+                else if (regionsS[c] == "Occidente")
+                {
+                    regions[3]++;
+                }
+                else if (regionsS[c] == "Oriente")
+                {
+                    regions[4]++;
+                }
+                else if (regionsS[c] == "Urabá")
+                {
+                    regions[5]++;
+                }
+                else if (regionsS[c] == "Bajo Cauca")
+                {
+                    regions[6]++;
+                }
+                else if (regionsS[c] == "Magdalena Medio")
+                {
+                    regions[7]++;
+                }
+                else if (regionsS[c] == "Valle de Aburrá")
+                {
+                    regions[8]++;
+                }
+                
+                    c++;
+            }
+            
         }
       
         private void noFiltersButton_Click(object sender, EventArgs e)
@@ -175,8 +347,10 @@ namespace Antioquia_Hospitals
 
         private void buttonOkMunicips_Click(object sender, EventArgs e)
         {
-            DataView dv = new DataView(dT);
+            
             dT.DefaultView.RowFilter = string.Format("Convert([{0}], 'System.String') LIKE '%{1}%'", "Nombre Municipio", textBoxMunicips.Text);
+            cities = dT.DefaultView.ToTable().Rows.Cast<DataRow>().Select(p => p.Field<string>("Nombre Municipio")).ToList();
+            hospitals = dT.DefaultView.ToTable().Rows.Cast<DataRow>().Select(p => p.Field<string>("Nombre Sede")).ToList();
             createListOfCoordinates(dT.DefaultView);
             createMarkers();
         }
@@ -191,7 +365,7 @@ namespace Antioquia_Hospitals
 
         private void gMap_Load (object sender, EventArgs e)
         {
-            gMap.MapProvider = GoogleMapProvider.Instance;  //Proveedor del servicio
+            gMap.MapProvider = GoogleMapProvider.Instance; 
             GMaps.Instance.Mode = AccessMode.ServerOnly;
             gMap.Overlays.Add(markers);
 
@@ -200,7 +374,7 @@ namespace Antioquia_Hospitals
 
         }
 
-        private void createMarkers()   //Mostrar municipios de Colombia
+        private void createMarkers()   
         {
            
             int i = 0;
@@ -210,13 +384,13 @@ namespace Antioquia_Hospitals
                 
                 PointLatLng pointLatLng1 = new PointLatLng(dLat[i], dLongi[i]);
 
-                //Las anteriores dos lineas proveen las funcionalidades para hacer la georeferenciación inversa
+               
 
                 if (pointLatLng1 != null)
                 {
                     Console.WriteLine(pointLatLng1.Lat + " lat "+ pointLatLng1.Lng+" long");
                     GMapMarker marker00 = new GMarkerGoogle(new PointLatLng(pointLatLng1.Lat, pointLatLng1.Lng), GMarkerGoogleType.blue_dot);
-                    marker00.ToolTipText = hospitals[i] + "\n" + pointLatLng1.Lat + "\n" + pointLatLng1.Lng; // Esta linea es solo apariencia
+                    marker00.ToolTipText = hospitals[i] + "\n"+ cities[i]+ ", Antioquia, Colombia \n" + pointLatLng1.Lat + "\n" + pointLatLng1.Lng; // Esta linea es solo apariencia
                     markers.Markers.Add(marker00);
 
                 }
@@ -240,19 +414,18 @@ namespace Antioquia_Hospitals
             dLat = new double[lat.Length];
             dLongi = new double[longi.Length];
             int i = 0;
-           // long pruf = long.Parse(lat[0]);
-           // Console.WriteLine(pruf + " veam");
+        
            
             while(i<longi.Length)
             {
                 int length1 = lat[i].Length;
                 lat[i] = lat[i].Substring(2, length1-3);
-                //Console.WriteLine(lat[i]);
+               
                 dLat[i] = double.Parse(lat[i], CultureInfo.InvariantCulture);
                 int length2 = longi[i].Length;
                 longi[i] = longi[i].Substring(0,length2-3);
                 dLongi[i] = double.Parse(longi[i],CultureInfo.InvariantCulture);
-                //Console.WriteLine(longi[i]);
+               
                 i++;
             }
             
@@ -302,7 +475,8 @@ namespace Antioquia_Hospitals
                 okButtonRegion.Visible = false;
                 labelMunicips.Visible = false;
                 textBoxMunicips.Visible = false;
-                okButtonMunicips.Visible = true;
+                okButtonMunicips.Visible = false;
+                okButtonVerifications.Visible = true;
                 labelDigitVerif1.Visible = true;
                 labelDigitVerif2.Visible = true;
                 textBoxDigitMax.Visible = true;

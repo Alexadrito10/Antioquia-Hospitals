@@ -48,6 +48,9 @@ namespace Antioquia_Hospitals
             this.filterComboBox = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
+            this.pieChart1 = new LiveCharts.WinForms.PieChart();
+            this.cartesianChart2 = new LiveCharts.WinForms.CartesianChart();
             ((System.ComponentModel.ISupportInitialize)(this.database)).BeginInit();
             this.SuspendLayout();
             // 
@@ -258,11 +261,38 @@ namespace Antioquia_Hospitals
     "ros";
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
+            // cartesianChart1
+            // 
+            this.cartesianChart1.Location = new System.Drawing.Point(904, 432);
+            this.cartesianChart1.Name = "cartesianChart1";
+            this.cartesianChart1.Size = new System.Drawing.Size(464, 293);
+            this.cartesianChart1.TabIndex = 19;
+            this.cartesianChart1.Text = "cartesianChart1";
+            // 
+            // pieChart1
+            // 
+            this.pieChart1.Location = new System.Drawing.Point(531, 486);
+            this.pieChart1.Name = "pieChart1";
+            this.pieChart1.Size = new System.Drawing.Size(352, 211);
+            this.pieChart1.TabIndex = 20;
+            this.pieChart1.Text = "pieChart1";
+            // 
+            // cartesianChart2
+            // 
+            this.cartesianChart2.Location = new System.Drawing.Point(607, 156);
+            this.cartesianChart2.Name = "cartesianChart2";
+            this.cartesianChart2.Size = new System.Drawing.Size(751, 260);
+            this.cartesianChart2.TabIndex = 21;
+            this.cartesianChart2.Text = "cartesianChart2";
+            // 
             // Interface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.cartesianChart2);
+            this.Controls.Add(this.pieChart1);
+            this.Controls.Add(this.cartesianChart1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.filterComboBox);
@@ -281,7 +311,7 @@ namespace Antioquia_Hospitals
             this.Controls.Add(this.noFilterButton);
             this.Controls.Add(this.database);
             this.Name = "Interface";
-            this.Text = "Form1";
+            this.Text = "Antioquia Hospitals";
             ((System.ComponentModel.ISupportInitialize)(this.database)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -308,6 +338,9 @@ namespace Antioquia_Hospitals
         private System.Windows.Forms.ComboBox filterComboBox;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
+        private LiveCharts.WinForms.CartesianChart cartesianChart1;
+        private LiveCharts.WinForms.PieChart pieChart1;
+        private LiveCharts.WinForms.CartesianChart cartesianChart2;
     }
 }
 

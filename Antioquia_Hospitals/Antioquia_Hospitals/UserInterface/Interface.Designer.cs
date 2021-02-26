@@ -47,6 +47,7 @@ namespace Antioquia_Hospitals
             this.okButtonVerifications = new System.Windows.Forms.Button();
             this.filterComboBox = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.database)).BeginInit();
             this.SuspendLayout();
             // 
@@ -144,7 +145,7 @@ namespace Antioquia_Hospitals
             this.gMap.GrayScaleMode = false;
             this.gMap.HelperLineOption = GMap.NET.WindowsForms.HelperLineOptions.DontShow;
             this.gMap.LevelsKeepInMemmory = 5;
-            this.gMap.Location = new System.Drawing.Point(22, 343);
+            this.gMap.Location = new System.Drawing.Point(22, 369);
             this.gMap.MarkersEnabled = true;
             this.gMap.MaxZoom = 20;
             this.gMap.MinZoom = 2;
@@ -158,7 +159,7 @@ namespace Antioquia_Hospitals
             this.gMap.ScaleMode = GMap.NET.WindowsForms.ScaleModes.Integer;
             this.gMap.SelectedAreaFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(65)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
             this.gMap.ShowTileGridLines = false;
-            this.gMap.Size = new System.Drawing.Size(468, 342);
+            this.gMap.Size = new System.Drawing.Size(503, 368);
             this.gMap.TabIndex = 8;
             this.gMap.Zoom = 13D;
             this.gMap.Load += new System.EventHandler(this.gMap_Load);
@@ -246,11 +247,23 @@ namespace Antioquia_Hospitals
             this.label5.Text = "Seleccione el filtro";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(67, 340);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(384, 13);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "Para visualizar los hospitales debes buscarlos por municipio  en la parte de filt" +
+    "ros";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+            // 
             // Interface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.filterComboBox);
             this.Controls.Add(this.okButtonVerifications);
@@ -294,6 +307,7 @@ namespace Antioquia_Hospitals
         private System.Windows.Forms.Button okButtonVerifications;
         private System.Windows.Forms.ComboBox filterComboBox;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label1;
     }
 }
 

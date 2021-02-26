@@ -12,6 +12,7 @@ using GMap.NET.WindowsForms;
 using GMap.NET.WindowsForms.Markers;
 using GMap.NET.MapProviders;
 using System.IO;
+using System.Globalization;
 
 namespace Antioquia_Hospitals
 {
@@ -23,16 +24,16 @@ namespace Antioquia_Hospitals
 
 
 
-        private List<double> dLat;
-        private List<double> dLongi;
+        private double[] dLat;
+        private double[] dLongi;
         private List<PointLatLng> puntos;
+        private List<string> hospitals;
         //private var hospitals;
 
         GMapOverlay markers = new GMapOverlay("markers");
         public Interface()
         {
-             dLat = new List<double>();
-             dLongi = new List<double>();
+
             InitializeComponent();
          
             dm = new DataManager();
@@ -96,7 +97,7 @@ namespace Antioquia_Hospitals
 
 
                 }
-                var hospitals = dT.AsEnumerable().Select(p => p.Field<string>("Nombre Sede")).ToList();
+                hospitals = dT.AsEnumerable().Select(p => p.Field<string>("Nombre Sede")).ToList();
             }
             catch (Exception exp)
             {
@@ -131,6 +132,7 @@ namespace Antioquia_Hospitals
             textBoxDigitMax.Clear();
             textBoxDigitMin.Clear();
             filterComboBox.Refresh();
+            markers.Clear();
 
         }
 
@@ -173,17 +175,18 @@ namespace Antioquia_Hospitals
 
         private void buttonOkMunicips_Click(object sender, EventArgs e)
         {
-
+            DataView dv = new DataView(dT);
             dT.DefaultView.RowFilter = string.Format("Convert([{0}], 'System.String') LIKE '%{1}%'", "Nombre Municipio", textBoxMunicips.Text);
-
+            createListOfCoordinates(dT.DefaultView);
+            createMarkers();
         }
 
         private void buttonOkVerifications_Click(object sender, EventArgs e)
         {
             
             dT.DefaultView.RowFilter = string.Format("Convert([{0}], 'System.String') >= '{1}' AND Convert([{0}], 'System.String') <= '{2}'", "Dígito Verificación NIT", int.Parse(textBoxDigitMin.Text),int.Parse(textBoxDigitMax.Text));
-           
-           
+            
+
         }
 
         private void gMap_Load (object sender, EventArgs e)
@@ -192,52 +195,68 @@ namespace Antioquia_Hospitals
             GMaps.Instance.Mode = AccessMode.ServerOnly;
             gMap.Overlays.Add(markers);
 
-            gMap.Position = new PointLatLng(3.42158, -76.5205);
-            createListOfCoordinates();
-            //markers();
+            gMap.Position = new PointLatLng(6.55, -75.817);
+            
+
         }
 
-        /**private void markers()   //Mostrar municipios de Colombia
+        private void createMarkers()   //Mostrar municipios de Colombia
         {
            
             int i = 0;
-            while (i<dLat.Count) 
+            Console.WriteLine(dLat.Length+ "S");
+            while (i<dLat.Length) 
             {
-                GeoCoderStatusCode statusCode;
+                
                 PointLatLng pointLatLng1 = new PointLatLng(dLat[i], dLongi[i]);
 
                 //Las anteriores dos lineas proveen las funcionalidades para hacer la georeferenciación inversa
 
                 if (pointLatLng1 != null)
                 {
-                    GMapMarker marker00 = new GMarkerGoogle(new PointLatLng(pointLatLng1.Value.Lat, pointLatLng1.Value.Lng), GMarkerGoogleType.blue_dot);
-                    marker00.ToolTipText = hospitals[i] + "\n" + pointLatLng1.Value.Lat + "\n" + pointLatLng1.Value.Lng; // Esta linea es solo apariencia
+                    Console.WriteLine(pointLatLng1.Lat + " lat "+ pointLatLng1.Lng+" long");
+                    GMapMarker marker00 = new GMarkerGoogle(new PointLatLng(pointLatLng1.Lat, pointLatLng1.Lng), GMarkerGoogleType.blue_dot);
+                    marker00.ToolTipText = hospitals[i] + "\n" + pointLatLng1.Lat + "\n" + pointLatLng1.Lng; // Esta linea es solo apariencia
                     markers.Markers.Add(marker00);
 
                 }
+                i++;
 
             }
-        }*/
+        }
 
         private void label5_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void createListOfCoordinates()
+        private void createListOfCoordinates(DataView dv)
         {
-           var lat =  dT.AsEnumerable().Select(p=> p.Field<string>("Latitud")).ToList();
-           var longi = dT.AsEnumerable().Select(p => p.Field<string>("Longitud")).ToList();
+            dLat = null;
+            dLongi = null;
+            
+            string[] lat = dv.ToTable().Rows.Cast<DataRow>().Select(p => p.Field<string>("Latitud")).ToArray();
+            string[] longi = dv.ToTable().Rows.Cast<DataRow>().Select(s => s.Field<string>("Longitud")).ToArray();
+            dLat = new double[lat.Length];
+            dLongi = new double[longi.Length];
             int i = 0;
-            while(i<lat.Count)
+           // long pruf = long.Parse(lat[0]);
+           // Console.WriteLine(pruf + " veam");
+           
+            while(i<longi.Length)
             {
-
-               // lat[i] = lat[i].Replace("(", "");
-                //dLat[i] = double.Parse(lat[i]);
-                //longi[i] = longi[i].Replace(")", "");
-                //dLongi = double.Parse(longi[i]);
+                int length1 = lat[i].Length;
+                lat[i] = lat[i].Substring(2, length1-3);
+                //Console.WriteLine(lat[i]);
+                dLat[i] = double.Parse(lat[i], CultureInfo.InvariantCulture);
+                int length2 = longi[i].Length;
+                longi[i] = longi[i].Substring(0,length2-3);
+                dLongi[i] = double.Parse(longi[i],CultureInfo.InvariantCulture);
+                //Console.WriteLine(longi[i]);
                 i++;
             }
+            
+            
         }
 
         private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
@@ -283,13 +302,18 @@ namespace Antioquia_Hospitals
                 okButtonRegion.Visible = false;
                 labelMunicips.Visible = false;
                 textBoxMunicips.Visible = false;
-                okButtonMunicips.Visible = false;
+                okButtonMunicips.Visible = true;
                 labelDigitVerif1.Visible = true;
                 labelDigitVerif2.Visible = true;
                 textBoxDigitMax.Visible = true;
                 textBoxDigitMin.Visible = true;
             }
 
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
 
         }
     }

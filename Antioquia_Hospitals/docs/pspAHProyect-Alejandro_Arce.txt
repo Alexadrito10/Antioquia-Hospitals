@@ -1,0 +1,1023 @@
+/Task-Schedule/Antioquia-Hospitals (Alejandro Arce)/XML Task List,<EVModel rct='true' tlid='8dlodz.kle7lyfa' tz='America/Bogota'><task name='Antioquia-Hospitals' pt='0.0' at='0.0' psd='@1613278800000' pd='@1613278799000' rpd='@9223372036854775807' tid='TL-8dlodz.kle7lyfa' who='Alejandro Arce' flag='plain'><task name='Antioquia-Hospitals/Diseño y analisis' pt='0.0' at='0.0' psd='@1613278800000' pd='@1613278799000' rpd='@9223372036854775807' nt='' nts=',(processName:TSP(SM)),Misc,Strategy,Planning,Reqts,Sys Test Plan,Reqts Review,Reqts Inspect,HLD,Int Test Plan,HLD Review,HLD Inspect,Design,Design Review,Test Devel,Design Inspect,Code,Code Review,Compile,Code Inspect,Test,Int Test,Sys Test,Documentation,Accept Test,Postmortem,Product Life,'/></task><schedule tpt='0.0' evt='0.0' at='0.0' pt='0.0' it='0.0' start='@1613278800000' eff='@1614383093706'><period end='@1613278800000' pt='0.0' at='0.0' cpv='0.0' cev='0.0' cac='0.0'/><period end='@1613883600000' pt='720.0' at='0.0' cpv='0.0' cev='0.0' cac='0.0'/></schedule></EVModel>
+/Antioquia-Hospitals/Diseño y analisis/Planning/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/DLDR_vs_UT/Defect Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Strategy/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design Review vs Design/Estimated Time Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/QP_Estimated DLDR_Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Inspected Req Pages Estimating Error,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Documentation/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Test/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Size_Metric_API_Handler,mcfSizeMetricApiHandler
+/Antioquia-Hospitals/Diseño y analisis/Team_Process_PID,TSP
+/Antioquia-Hospitals/Diseño y analisis/HLD Pages Productivity,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Estimated Text Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/Team_Process_Name,TSP(SM)
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Analyze Rollup Data/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Indiv_Export_Filename,me-data.pdash
+/Antioquia-Hospitals/Diseño y analisis/Int Test/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code/Estimated Defects Injected per Hour,2.0
+/Antioquia-Hospitals/Diseño y analisis/Rollup As Of Date,ene. 01, 1970 07:00:00 a. m.
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Appraisal Rate,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Target Code Review/Code Ratio,0.5
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/TSP Team Project Indiv Root,TAG
+/Antioquia-Hospitals/Diseño y analisis/Planning/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Compile/DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/PSP Compatible,TAG
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design vs Code/Estimated Time Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design/Estimated % Phase Yield,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Estimated Appraisal Rate,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Test/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Documentation/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Int Test/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Base LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/Int Test/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Product Life/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/QP_CR_Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Compile,
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Test/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/HLD Review,
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Design Inspect,1.0
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Product Life,1.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Test/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Aggregate Req Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Review/DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/Misc/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Aggregate Inspected HLD Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/Documentation/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated End to End Text Pages Productivity,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Workflow_Param/PSP/Design/Estimated % Phase Yield,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Int Test,
+/Antioquia-Hospitals/Diseño y analisis/Quality_Phase_List,Reqts ReviewReqts InspectHLD ReviewHLD InspectDesign ReviewDesign InspectCode ReviewCompileCode InspectTestInt TestSys TestAccept TestProduct Life
+/Antioquia-Hospitals/Diseño y analisis/Design/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Sys Test Plan,
+/Antioquia-Hospitals/Diseño y analisis/Strategy/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Appraisal Rate,NaN
+/Antioquia-Hospitals/Diseño y analisis/Reqts/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Estimated Appraisal Rate,NaN
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Test Devel,1.0
+/Antioquia-Hospitals/Diseño y analisis/Misc/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Planning/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Estimated Appraisal Rate,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Estimated Inspected DLD Lines,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Misc/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design/Estimated Defects Injected per Hour,0.75
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/PROBE_TARGET_SIZE_METRIC_NAME,Size
+/Antioquia-Hospitals/Diseño y analisis/Reqts/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Strategy/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Product Life/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Strategy/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Quality Profile Capable,TAG
+/Antioquia-Hospitals/Diseño y analisis/Int Test/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Analyze Rollup Data/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Analyze Rollup Data/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Test/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/HLD Inspect,
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Planning,
+/Antioquia-Hospitals/Diseño y analisis/Total LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Estimated DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/Test/Estimated % Phase Yield,0.9
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Reqts Inspect,1.0
+/Antioquia-Hospitals/Diseño y analisis/Workflow_Param/PSP/Test/Estimated % Phase Yield,0.5
+/Antioquia-Hospitals/Diseño y analisis/Test/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/After Development/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sync_Full_WBS,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Pages/Estimated Appraisal Time Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design Review vs Test/Estimated Defect Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Compile/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Documentation/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Strategy/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/QP_DLD_Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Strategy/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/PROBE_INPUT_SIZE_METRIC_NAME,Unadjusted Estimated Size
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Modified LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Int Test Plan,
+/Antioquia-Hospitals/Diseño y analisis/Add_Task_Handler,pdash.addTeamTask
+/Antioquia-Hospitals/Diseño y analisis/HLD/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Test/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Compile/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Phase_List,MiscStrategyPlanningReqtsSys Test PlanReqts ReviewReqts InspectHLDInt Test PlanHLD ReviewHLD InspectDesignDesign ReviewTest DevelDesign InspectCodeCode ReviewCompileCode InspectTestInt TestSys TestDocumentationAccept TestPostmortemProduct Life
+/Antioquia-Hospitals/Diseño y analisis/Design/Appraisal Rate,NaN
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Rollup_Date_Filter_On,1.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Review/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Inspected New & Changed LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Reqts Review,1.0
+/Antioquia-Hospitals/Diseño y analisis/Planning/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Req Pages Productivity,Infinity
+/Antioquia-Hospitals/Diseño y analisis/New & Changed LOC Productivity,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Appraisal Rate,Infinity
+/Antioquia-Hospitals/Diseño y analisis/CR_vs_COMP/Estimated Defect Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/DLD_vs_CODE/Estimated Time Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Reused LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Text Pages/Owned_List,
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Estimated DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Software_Project_List,
+/Antioquia-Hospitals/Diseño y analisis/Design/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sync_Require_Delete_Permission,0.0
+/Antioquia-Hospitals/Diseño y analisis/Text Pages Estimating Error,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Effective_Defect_Phase_List,PlanningReqtsSys Test PlanReqts ReviewReqts InspectHLDInt Test PlanHLD ReviewHLD InspectDesignDesign ReviewTest DevelDesign InspectCodeCode ReviewCompileCode InspectTestInt TestSys TestDocumentationAccept TestProduct Life
+/Antioquia-Hospitals/Diseño y analisis/Int Test/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Rollup_Language_Filter_On,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Team Project Indiv Root,TAG
+/Antioquia-Hospitals/Diseño y analisis/Documentation/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Estimated New & Changed KLOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Planning/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Test/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Strategy/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Estimated % COQ,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/CR_vs_COMP/Defect Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Compile/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reverse_Sync_New_Members,1.0
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Appraisal_Phase_List,Reqts ReviewReqts InspectHLD ReviewHLD InspectDesign ReviewDesign InspectCode ReviewCode Inspect
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Product Life/Estimated % Phase Yield,0.0
+/Antioquia-Hospitals/Diseño y analisis/New & Changed LOC Estimating Error,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Product Life/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Test/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Design,
+/Antioquia-Hospitals/Diseño y analisis/Compile/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design vs Code/Time Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Strategy/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Aggregate Inspected Req Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Misc/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Review vs Compile/Defect Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Quality_Profile_1,1.0
+/Antioquia-Hospitals/Diseño y analisis/Child_List,MiscStrategyPlanningReqtsSys Test PlanReqts ReviewReqts InspectHLDInt Test PlanHLD ReviewHLD InspectDesignDesign ReviewTest DevelDesign InspectCodeCode ReviewCompileCode InspectTestInt TestSys TestDocumentationAccept TestPostmortemProduct Life
+/Antioquia-Hospitals/Diseño y analisis/Quality_Profile_2,1.0
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Appraisal Rate,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Quality_Profile_3,1.0
+/Antioquia-Hospitals/Diseño y analisis/Quality_Profile_4,1.0
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Quality_Profile_5,1.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Test/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Analyze Rollup Data/Node_Type,(Analyze Rollup Data)
+/Antioquia-Hospitals/Diseño y analisis/Reqts/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Compile/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Test/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/TSP Rollup Tag,TAG
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated End to End New & Changed LOC Productivity,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Req Pages Estimating Error,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Estimated Appraisal Rate,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Strategy,
+/Antioquia-Hospitals/Diseño y analisis/Uncategorized/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Reqts,1.0
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/TSP Indiv2 Root Tag,TAG
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Req Pages Productivity,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Test/DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Workflow_Param/PSP/Planning/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Appraisal Rate,Infinity
+/Antioquia-Hospitals/Diseño y analisis/EXPORT_FILE/Instructions,file:/TSP/metricsExportFilter.xml
+/Antioquia-Hospitals/Diseño y analisis/Workflow_Param/PSP/Design/Estimated Defects Injected per Hour,0.75
+/Antioquia-Hospitals/Diseño y analisis/Design Review/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Before Development/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Indiv_Auto_Labels,label:Completed_Taskslabel_data:hiddenlabel:Completed_Componentslabel_data:hidden
+/Antioquia-Hospitals/Diseño y analisis/TSP Indiv Root Tag,TAG
+/Antioquia-Hospitals/Diseño y analisis/Compile/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Design Review,1.0
+/Antioquia-Hospitals/Diseño y analisis/Documentation/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Estimated % Phase Yield,0.7
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Estimated Inspected New & Changed LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Product Life/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Aggregate HLD Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Product Life/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/EXPORT_FILE,.\\data\\kle7lvfx\\me-data.pdash
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Estimated DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Productivity,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Test/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Compile/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Workflow_Param/PSP/Test/Estimated Defects Injected per Hour,0.067
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/HLD,1.0
+/Antioquia-Hospitals/Diseño y analisis/HLD/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Accept Test,
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Test,1.0
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Product Life/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Compile/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/AGGR_SIZE_METRIC_NAME,Size
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Accept Test,1.0
+/Antioquia-Hospitals/Diseño y analisis/Aggregate Text Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Product Life,
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Compile/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Printable_Rollup_List,
+/Antioquia-Hospitals/Diseño y analisis/HLD/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Misc/Estimated % Phase Yield,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Aggregate Size,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Planning/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test/Estimated DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Planning,1.0
+/Antioquia-Hospitals/Diseño y analisis/Reused LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Node_Type_Spec,(processName:TSP(SM))MiscStrategyPlanningReqtsSys Test PlanReqts ReviewReqts InspectHLDInt Test PlanHLD ReviewHLD InspectDesignDesign ReviewTest DevelDesign InspectCodeCode ReviewCompileCode InspectTestInt TestSys TestDocumentationAccept TestPostmortemProduct Life
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Misc,1.0
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Appraisal Rate,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/New & Changed LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/Misc/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Estimated Aggregate New & Changed LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Total Development /Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design Review vs Design/Time Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Misc/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Planning/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Misc/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Planning/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Export_Max_Node_Depth,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Productivity,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Req Pages/Appraisal Time Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Rollup_Keyword,
+/Antioquia-Hospitals/Diseño y analisis/Compile/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Total Development /Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Strategy/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Documentation/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Misc/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Team_Directory_Eff,.
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Postmortem,1.0
+/Antioquia-Hospitals/Diseño y analisis/% Appraisal COQ,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Task_Labels,label:Completed_Taskslabel_data:hiddenglob_engine:deferredglob_engine:deferred_token:/Antioquia-Hospitals/Diseño y analisis/Indiv_Auto_Labelslabel:Completed_Componentslabel_data:hiddenglob_engine:deferredglob_engine:deferred_token:/Antioquia-Hospitals/Diseño y analisis/Indiv_Auto_Labels
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Appraisal Rate,NaN
+/Antioquia-Hospitals/Diseño y analisis/HLD/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated DLD Lines,0.0
+/Antioquia-Hospitals/Diseño y analisis/Strategy/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Workflow_Param/PSP/Code Review/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Compile/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Test/Estimated DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Compile/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/FILES_XML,,/TSP/files.xml,/TSP/files2.xml,
+/Antioquia-Hospitals/Diseño y analisis/Int Test/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Inspected HLD Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/Req Pages/Owned_List,
+/Antioquia-Hospitals/Diseño y analisis/Test/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Test/Estimated Defects Injected per Hour,0.067
+/Antioquia-Hospitals/Diseño y analisis/Int Test/DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Product Life/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Test Devel,
+/Antioquia-Hospitals/Diseño y analisis/Estimated % Failure COQ,Infinity
+/Antioquia-Hospitals/Diseño y analisis/DLDR_vs_UT/Estimated Defect Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Strategy/Estimated % Phase Yield,0.0
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Code,
+/Antioquia-Hospitals/Diseño y analisis/% Reused,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Planning/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Deleted LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Workflow_Param/PSP/Compile/Estimated % Phase Yield,0.0
+/Antioquia-Hospitals/Diseño y analisis/Strategy/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Req Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/Product Life/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Reqts,
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Text Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/Misc/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Aggregate DLD Lines,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/Design/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Documentation/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Planning/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Analyze Rollup Data/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Estimated HLD Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/Task_ID_WBS_Order,none
+/Antioquia-Hospitals/Diseño y analisis/Documentation/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Aggregate Inspected HLD Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/Test/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test/Estimated % Phase Yield,0.8
+/Antioquia-Hospitals/Diseño y analisis/Int Test/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Workflow_Param/PSP/Code/Estimated Defects Injected per Hour,2.0
+/Antioquia-Hospitals/Diseño y analisis/Strategy/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/DLD Lines Estimating Error,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Total Development /Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Int Test Plan,1.0
+/Antioquia-Hospitals/Diseño y analisis/Workflow_Param/PSP/Code/Estimated % Phase Yield,0.0
+/Antioquia-Hospitals/Diseño y analisis/End to End Req Pages Productivity,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Documentation/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/TSP/Rollup Tag,TAG
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Estimated % Phase Yield,0.7
+/Antioquia-Hospitals/Diseño y analisis/Sized_Object_List,
+/Antioquia-Hospitals/Diseño y analisis/Compile/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Estimated DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/Compile/Estimated % Phase Yield,0.5
+/Antioquia-Hospitals/Diseño y analisis/Design/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Analyze Rollup Data/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/Has Compile Phase,TAG
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/QP_Estimated COMP_Def,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Target Test Defect Density,5.0
+/Antioquia-Hospitals/Diseño y analisis/Team_Directory_URL_Only,0.0
+/Antioquia-Hospitals/Diseño y analisis/Strategy/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Aggregate Size,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Estimated Appraisal Rate,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Test/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Product Life/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Planning/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/CR_vs_CODE/Time Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Software_Project_Count,0.0
+/Antioquia-Hospitals/Diseño y analisis/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Enable_Reverse_Sync,1.0
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Strategy,1.0
+/Antioquia-Hospitals/Diseño y analisis/Strategy/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Design,1.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Estimated PQI,1.0
+/Antioquia-Hospitals/Diseño y analisis/Planning/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List,
+/Antioquia-Hospitals/Diseño y analisis/Product Life/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/DLD Lines/Owned_List,
+/Antioquia-Hospitals/Diseño y analisis/Aggregate DLD Lines,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD/Estimated % Phase Yield,0.0
+/Antioquia-Hospitals/Diseño y analisis/TSP /Effective_Phase,?????
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Size,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/Test/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Int Test/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/HLD Inspect,1.0
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Test,
+/Antioquia-Hospitals/Diseño y analisis/After Development/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Base LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Analyze Rollup Data/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Estimated Inspected New & Changed KLOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Analyze Rollup Data/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Documentation/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/Target Compile Defect Density,10.0
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Estimated End to End Req Pages Productivity,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Team_Settings_Node,/Team_Settings /
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Before Development/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Documentation,1.0
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Time Estimating Error,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Rollup_WBS_ID_Filter,,,
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Postmortem,
+/Antioquia-Hospitals/Diseño y analisis/Misc/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Aggregate Text Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Documentation/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Estimated Quality_Profile_1,1.0
+/Antioquia-Hospitals/Diseño y analisis/Rollup Tag,TAG
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Design Inspect,
+/Antioquia-Hospitals/Diseño y analisis/Strategy/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/Estimated Modified LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Quality_Profile_4,1.0
+/Antioquia-Hospitals/Diseño y analisis/Strategy/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Estimated Quality_Profile_5,1.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Quality_Profile_2,1.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Quality_Profile_3,1.0
+/Antioquia-Hospitals/Diseño y analisis/Node_Type,
+/Antioquia-Hospitals/Diseño y analisis/Team_Directory,.
+/Antioquia-Hospitals/Diseño y analisis/Reqts/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/Estimated % Phase Yield,0.0
+/Antioquia-Hospitals/Diseño y analisis/Documentation/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Planning/Estimated % Phase Yield,0.0
+/Antioquia-Hospitals/Diseño y analisis/Aggregate Inspected Req Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Total LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Target Design Review/Design Ratio,0.5
+/Antioquia-Hospitals/Diseño y analisis/Estimated % Appraisal COQ,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Object LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Documentation/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Test/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/Estimated % Phase Yield,0.8
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD/Estimated Defects Injected per Hour,0.25
+/Antioquia-Hospitals/Diseño y analisis/Code/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Unadorned_Rollup_List,
+/Antioquia-Hospitals/Diseño y analisis/WBS_Read_Only,1.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated New & Changed LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/New & Changed LOC/Owned_List,
+/Antioquia-Hospitals/Diseño y analisis/DLDR_vs_DLD/Estimated Time Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/Estimated % Phase Yield,0.0
+/Antioquia-Hospitals/Diseño y analisis/Rollup_Filter_Prototype,[Completed] > [{Rollup As Of Date}]
+/Antioquia-Hospitals/Diseño y analisis/Product Life/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Project_Path_Prefix,/Antioquia-Hospitals/Diseño y analisis
+/Antioquia-Hospitals/Diseño y analisis/Code/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Code Inspect,1.0
+/Antioquia-Hospitals/Diseño y analisis/QP_Estimated DLD_Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Rollup_Language,
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/New & Changed KLOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/% New Reused,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Sys Test,1.0
+/Antioquia-Hospitals/Diseño y analisis/Text Pages/Appraisal Time Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/AFR,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Compile,1.0
+/Antioquia-Hospitals/Diseño y analisis/Design Review vs Test/Defect Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Compile/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Estimated % Phase Yield,0.7
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Appraisal Rate,Infinity
+/Antioquia-Hospitals/Diseño y analisis/SIZE_METRIC_NAME,Size
+/Antioquia-Hospitals/Diseño y analisis/Strategy/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/% COQ,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Inspected DLD Lines,0.0
+/Antioquia-Hospitals/Diseño y analisis/End to End Text Pages Productivity,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Added LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Estimated DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Workflow_Param/PSP/Postmortem/Estimated % Phase Yield,0.0
+/Antioquia-Hospitals/Diseño y analisis/Product Life/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Rollup_Filter_Regexp,m\n^(\\Q\\E)(/.+)?$\n
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Aggregate Inspected New & Changed LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Misc/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Inspected HLD Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/QP_Estimated UT_Def,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Planning/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Synchronized_Task_ID_WBS_Order,none
+/Antioquia-Hospitals/Diseño y analisis/Code/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/TSP Tag,TAG
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/Req Pages/Estimated Appraisal Time Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/QP_DLDR_Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Req Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/Analyze Rollup Data/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/QP_CODE_Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Uncategorized,
+/Antioquia-Hospitals/Diseño y analisis/Project_ID,kle7lvfx
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Sys Test Plan,1.0
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Workflow_Param/PSP/Design Review/Estimated % Phase Yield,0.7
+/Antioquia-Hospitals/Diseño y analisis/Inspected Text Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/Total Development /Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Uncategorized/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Indiv_Auto_Labels_Deferred,label:Completed_Taskslabel_data:hiddenglob_engine:deferredglob_engine:deferred_token:/Antioquia-Hospitals/Diseño y analisis/Indiv_Auto_Labelslabel:Completed_Componentslabel_data:hiddenglob_engine:deferredglob_engine:deferred_token:/Antioquia-Hospitals/Diseño y analisis/Indiv_Auto_Labels
+/Antioquia-Hospitals/Diseño y analisis/Design/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Compile/Estimated Defects Injected per Hour,0.3
+/Antioquia-Hospitals/Diseño y analisis/Estimated AFR,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code Review vs Code/Estimated Time Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Indiv_Initials,me
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Code,1.0
+/Antioquia-Hospitals/Diseño y analisis/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Aggregate Inspected DLD Lines,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Planning/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Misc/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Rollup_Prefix,
+/Antioquia-Hospitals/Diseño y analisis/Inspected Req Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Estimated % Phase Yield,0.7
+/Antioquia-Hospitals/Diseño y analisis/Design/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design Review/DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/CPI,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/Total Development /Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Documentation/Estimated % Phase Yield,0.0
+/Antioquia-Hospitals/Diseño y analisis/Rollup_Prefix_Filter_On,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/AGGR_SIZE_METRIC_NAME_ABBR,Size
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Product Life/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/Estimated % Phase Yield,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Estimated % Phase Yield,0.7
+/Antioquia-Hospitals/Diseño y analisis/Strategy/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Misc/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Rollup_Filter,nvlz(!defined([{Filtered_Task_Labels}]), intersects([{Filtered_Task_Labels}], [EV_Task_IDs])) && nvlz([Project_WBS_ID] == [{Project_WBS_ID_Filter}], startsWith([{Project_WBS_ID_Filter}] & "/", [Project_WBS_ID]))
+/Antioquia-Hospitals/Diseño y analisis/Estimated % Reused,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Estimated DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Int Test,1.0
+/Antioquia-Hospitals/Diseño y analisis/HLD/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Test/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/End to End HLD Pages Productivity,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Rollup_Keyword_Filter_On,0.0
+/Antioquia-Hospitals/Diseño y analisis/Compile/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Planning/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Reqts Review,
+/Antioquia-Hospitals/Diseño y analisis/Workflow_Param/PSP/Compile/Estimated Defects Injected per Hour,0.3
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Yield_Phase_List,MiscStrategyPlanningReqtsSys Test PlanReqts ReviewReqts InspectHLDInt Test PlanHLD ReviewHLD InspectDesignDesign ReviewTest DevelDesign InspectCodeCode Review
+/Antioquia-Hospitals/Diseño y analisis/Code/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Documentation/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Product Life/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Text Pages/Estimated Appraisal Time Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Estimated Text Pages Productivity,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Analyze Rollup Data/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Overhead_Phase_List,MiscStrategyPlanningPostmortem
+/Antioquia-Hospitals/Diseño y analisis/Documentation/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Analyze Rollup Data/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Misc,
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Total Development /Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Strategy/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Inspected New & Changed KLOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Rollup_List,
+/Antioquia-Hospitals/Diseño y analisis/Inspected HLD Pages Estimating Error,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/CR_vs_CODE/Estimated Time Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/HLD,
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Exclude Children of Rollup_List for Defects,TAG
+/Antioquia-Hospitals/Diseño y analisis/Design/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/Code Review/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Compile/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Planning/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Analyze Rollup Data/Estimated Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Product Life/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated New & Changed LOC Productivity,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Int Test/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/Misc/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Estimated HLD Pages Productivity,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/node,TAG
+/Antioquia-Hospitals/Diseño y analisis/Analyze Rollup Data/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/HLD Review,1.0
+/Antioquia-Hospitals/Diseño y analisis/Design/Estimated Appraisal Rate,NaN
+/Antioquia-Hospitals/Diseño y analisis/Planning/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Development_Phase_List,ReqtsSys Test PlanHLDInt Test PlanDesignTest DevelCodeDocumentation
+/Antioquia-Hospitals/Diseño y analisis/Estimated Aggregate HLD Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Project_WBS_ID,kle7lvfx
+/Antioquia-Hospitals/Diseño y analisis/QP_Estimated CODE_Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/Reqts/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Code Inspect,
+/Antioquia-Hospitals/Diseño y analisis/Planning/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts/Estimated Defects Injected per Hour,0.25
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Aggregate Inspected DLD Lines,0.0
+/Antioquia-Hospitals/Diseño y analisis/Int Test/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/PQI,1.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Compile/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/EXPORT_FILE/Disabled,0.0
+/Antioquia-Hospitals/Diseño y analisis/Documentation/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Team_Data_Directory,.\\data\\kle7lvfx
+/Antioquia-Hospitals/Diseño y analisis/End to End New & Changed LOC Productivity,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated New Reused LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Exporting_Namespaced_Phase_Metrics,1.0
+/Antioquia-Hospitals/Diseño y analisis/Last_Failure_Phase,Product Life
+/Antioquia-Hospitals/Diseño y analisis/Workflow_Param/PSP/Code Review/Estimated % Phase Yield,0.7
+/Antioquia-Hospitals/Diseño y analisis/Misc/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Prefer Actual Size for Inspection Estimates,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Estimated DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/Relaunchable_Settings,Defect Type StandardTarget Design/Code RatioTarget Code Review/Code RatioTarget Compile Defect DensityTarget Test Defect DensityTarget Design Review/Design RatioPrefer Actual Size for Inspection Estimates*PHASE*/Estimated % Phase Yield*PHASE*/Estimated Defects Injected per HourPhase_Display_Filter_Include/*PHASE*
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/EV Project Tag,TAG
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Estimated Appraisal Rate,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/Estimated DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/DLD_vs_CODE/Time Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Planning/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Estimated Appraisal Rate,NaN
+/Antioquia-Hospitals/Diseño y analisis/Reqts/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Misc/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Workflow_Param/PSP/Design Review/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Inspected Req Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Pages Estimating Error,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Rollup_Namespaced_Phase_Metrics,1.0
+/Antioquia-Hospitals/Diseño y analisis/Estimated Object LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Estimated Appraisal Rate,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Added LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Workflow_Param/PSP/Postmortem/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/Product Life/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Deleted LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Phase_Display_Filter_Include/Code Review,1.0
+/Antioquia-Hospitals/Diseño y analisis/Compile/Estimated DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/HLD/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Product Life/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Design Review,
+/Antioquia-Hospitals/Diseño y analisis/Misc/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/QP_Estimated CR_Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Code Review,
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Test/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Documentation/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Planning/Estimated Defects Injected per Hour,0.0
+/Antioquia-Hospitals/Diseño y analisis/Strategy/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Process_ID,TSP
+/Antioquia-Hospitals/Diseño y analisis/SIZE_METRIC_NAME_ABBR,Size
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/New Reused LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/DLDR_vs_DLD/Time Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts/Estimated % Phase Yield,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Product Life/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Autosync_Disabled,0.0
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/QP_UT_Def,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Estimated Size,0.0
+/Antioquia-Hospitals/Diseño y analisis/file_sep,\\
+/Antioquia-Hospitals/Diseño y analisis/Code Review vs Code/Time Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/Estimated % Phase Yield,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Estimated End to End HLD Pages Productivity,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Documentation/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/DLD Lines,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design Review/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Analyze Rollup Data/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Estimated DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Estimated % New Reused,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Compile/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Sys Test,
+/Antioquia-Hospitals/Diseño y analisis/Aggregate New & Changed LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Inspected DLD Lines Estimating Error,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Product Life/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Review/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Product Life/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Estimated % Phase Yield,0.7
+/Antioquia-Hospitals/Diseño y analisis/Reqts Review/Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Pages/Owned_List,
+/Antioquia-Hospitals/Diseño y analisis/Analyze Rollup Data/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Misc/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/QP_COMP_Def,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/Estimated Time,0.0
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Planning/Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Documentation,
+/Antioquia-Hospitals/Diseño y analisis/Code Review vs Compile/Estimated Defect Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Estimated Inspected Text Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/Failure_Phase_List,CompileTestInt TestSys TestAccept TestProduct Life
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Estimated Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/Estimated Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Documentation/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Inspected New & Changed LOC Estimating Error,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Size Estimating Error,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Misc/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD Inspect/Estimated % Phase Yield,0.7
+/Antioquia-Hospitals/Diseño y analisis/Test/Estimated Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Documentation/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Workflow_Param/PSP/Planning/Estimated % Phase Yield,0.0
+/Antioquia-Hospitals/Diseño y analisis/Int Test/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Estimated % Phase Yield,0.7
+/Antioquia-Hospitals/Diseño y analisis/Sys Test Plan/Defect Injection Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Product Life/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Reqts Inspect/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/HLD Pages/Appraisal Time Ratio,Infinity
+/Antioquia-Hospitals/Diseño y analisis/% Failure COQ,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Text Pages Productivity,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Int Test Plan/Estimated Defects Removed per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Estimated Aggregate Inspected New & Changed LOC,0.0
+/Antioquia-Hospitals/Diseño y analisis/Compile/% Phase Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Target Design/Code Ratio,1.0
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/TSP-rollup-prototype Tag,TAG
+/Antioquia-Hospitals/Diseño y analisis/Compile/% Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Strategy/Estimated % Process Yield,Infinity
+/Antioquia-Hospitals/Diseño y analisis/HLD/Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Project_WBS_ID_Filter,kle7lvfx
+/Antioquia-Hospitals/Diseño y analisis/Estimated Aggregate Req Pages,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code/Estimated % Phase Yield,0.0
+/Antioquia-Hospitals/Diseño y analisis/Postmortem/Defects Removed,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/Defects_Removed_So_Far,0.0
+/Antioquia-Hospitals/Diseño y analisis/Code Inspect/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design Inspect/DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/Code Review/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Accept Test/Estimated Defects Injected,0.0
+/Antioquia-Hospitals/Diseño y analisis/Sys Test/Estimated DRL,NaN
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/Estimated % Phase Yield,0.0
+/Antioquia-Hospitals/Diseño y analisis/Namespaced_Rollup_List/Reqts Inspect,
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/Defects Injected per Hour,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Test Devel/Estimated Defect Density,Infinity
+/Antioquia-Hospitals/Diseño y analisis/Design Review/Estimated Defects_Injected_So_Far,0.0
+/Antioquia-Hospitals/Metodo de la ingenieria/node,TAG
+/Antioquia-Hospitals/Video/Started,feb. 26, 2021 04:12:08 p. m.
+/Antioquia-Hospitals/Video/leaf,TAG
+/Antioquia-Hospitals/Analisis y diseño/node,TAG
+/Antioquia-Hospitals/Metodo de la ingenieria/Time,299.0
+/Antioquia-Hospitals/Diseño y analisis/WBS_Managed_Size_Data,1.0
+/Antioquia-Hospitals/Metodo de la ingenieria/Estimated Time/Edit_Timestamp,feb. 20, 2021 05:16:53 p. m.
+/Antioquia-Hospitals/Diseño y analisis/Project_Schedule_Name,Antioquia-Hospitals
+/Antioquia-Hospitals/Implementacion/Started,feb. 20, 2021 10:15:27 p. m.
+/Antioquia-Hospitals/Implementacion/Defect Type Standard,PSP - text
+/Antioquia-Hospitals/Analisis y diseño/Time,348.0
+/Antioquia-Hospitals/Implementacion/Team_Note,<note author='Alejandro Arce' timestamp='@1614217564449' format='text'>Implementing Map</note>
+/Antioquia-Hospitals/Analisis y diseño/Started,feb. 20, 2021 04:08:47 p. m.
+/Antioquia-Hospitals/Diseño y analisis/TST_Antioquia-Hospitals,0.0
+/Antioquia-Hospitals/Analisis y diseño/Estimated Time/Edit_Timestamp,feb. 20, 2021 05:16:44 p. m.
+/Antioquia-Hospitals/Implementacion/Time,773.0
+/Antioquia-Hospitals/Diseño y analisis/EXPORT_FILE/Last_Export_Timestamp,feb. 26, 2021 06:13:00 p. m.
+/Antioquia-Hospitals/Metodo de la ingenieria/Started,feb. 20, 2021 05:16:48 p. m.
+/Antioquia-Hospitals/Data_Activity_Timestamp,feb. 26, 2021 05:51:50 p. m.
+/Antioquia-Hospitals/Metodo de la ingenieria/leaf,TAG
+/Antioquia-Hospitals/Implementacion/node,TAG
+/Antioquia-Hospitals/Analisis y diseño/Team_Note,<note author='Alejandro Arce' timestamp='@1613935625272' format='text'>Diagrama de clases</note>
+/Antioquia-Hospitals/Video/node,TAG
+/Antioquia-Hospitals/Started,feb. 20, 2021 04:08:47 p. m.
+/Antioquia-Hospitals/node,TAG
+/Antioquia-Hospitals/Analisis y diseño/leaf,TAG
+/Antioquia-Hospitals/Diseño y analisis/leaf,TAG
+/Antioquia-Hospitals/Diseño y analisis/Orphaned Time,0.0
+/Antioquia-Hospitals/Video/Time,45.0
+/Antioquia-Hospitals/Diseño y analisis/Project_Schedule_ID,8dlodz.kle7lyfa
+/Antioquia-Hospitals/Diseño y analisis/Personal_Project,TAG
+/Antioquia-Hospitals/Implementacion/leaf,TAG
+/Antioquia-Hospitals/Analisis y diseño/Completed/Edit_Timestamp,feb. 21, 2021 02:26:42 p. m.
+!feb. 20, 2021 04:08:47 p. m.!,68
+!feb. 20, 2021 05:16:48 p. m.!,299
+!feb. 20, 2021 10:15:27 p. m.!,712
+!feb. 21, 2021 01:49:54 p. m.!,34
+!feb. 21, 2021 02:24:11 p. m.!,2
+!feb. 21, 2021 02:26:29 p. m.!,0
+!feb. 21, 2021 05:08:48 p. m.!,31
+!feb. 24, 2021 08:46:08 p. m.!,59
+!feb. 25, 2021 10:22:42 p. m.!,140
+!feb. 26, 2021 04:12:08 p. m.!,24
+!feb. 26, 2021 04:36:56 p. m.!,75
+!feb. 26, 2021 05:51:50 p. m.!,21
+<!-- start defects -->
+<defects>
+</defects>

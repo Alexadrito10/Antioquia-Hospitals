@@ -1,0 +1,625 @@
+/SmartMap/Mapa Inteligente/HLD Review/Time To Date,0.0
+/SmartMap/Mapa Inteligente/Planning/Estimated Defects Injected,0.0
+/SmartMap/Mapa Inteligente/Code Review/Cumulative Defect Removal % To Date,0.7692307692307692
+/SmartMap/Mapa Inteligente/Compile/Estimated Time To Date,0.0
+/SmartMap/Mapa Inteligente/Design Review vs Design/Estimated Time Ratio,NaN
+/SmartMap/Mapa Inteligente/Code/Defects Injected per Hour To Date,3.9999999999999996
+/SmartMap/Mapa Inteligente/Size,0.0
+/SmartMap/Mapa Inteligente/Code/Defect Density To Date,4.999999999999999
+/SmartMap/Mapa Inteligente/Design Review/Defects Injected per Hour,Infinity
+/SmartMap/Mapa Inteligente/Postmortem/Estimated Defects Injected per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Base_Parts/0/Modified To Date,0.0
+/SmartMap/Mapa Inteligente/Postmortem/node,TAG
+/SmartMap/Mapa Inteligente/Test/Estimated Defect Injection Density To Date,Infinity
+/SmartMap/Mapa Inteligente/Code Review/Defects Removed per Hour To Date,6.0
+/SmartMap/Mapa Inteligente/Design Review/Defects Injected per Hour To Date,0.0
+/SmartMap/Mapa Inteligente/After Development/Defects Removed,0.0
+/SmartMap/Mapa Inteligente/Design Review/Time To Date,6.0E-5
+/SmartMap/Mapa Inteligente/Code/Defects Removed,0.0
+/SmartMap/Mapa Inteligente/Object LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Design vs Code/Estimated Time Ratio To Date,Infinity
+/SmartMap/Mapa Inteligente/Code Review/Defects Injected per Hour,Infinity
+/SmartMap/Mapa Inteligente/Code/Estimated Defects Injected per Hour,NaN
+/SmartMap/Mapa Inteligente/Design/Estimated Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/Proxy Size To Date,0.0
+/SmartMap/Mapa Inteligente/Planning/Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/Code Review/Phase_Color,#00c000
+/SmartMap/Mapa Inteligente/Planning_Is_Done,1.0
+/SmartMap/Mapa Inteligente/Design/Defects Removed per Hour,0.0
+/SmartMap/Mapa Inteligente/Design Review/Defects Removed per Hour,Infinity
+/SmartMap/Mapa Inteligente/Design Review/Defect Density,Infinity
+/SmartMap/Mapa Inteligente/Design vs Code/Time Ratio To Date,1.0
+/SmartMap/Mapa Inteligente/Postmortem/Defect Injection Density To Date,0.0
+/SmartMap/Mapa Inteligente/Design Review/Appraisal Rate To Date,200.0
+/SmartMap/Mapa Inteligente/Design/Combined Defects Injected,0.0
+/SmartMap/Mapa Inteligente/Planning/Estimated Defect Injection Density,NaN
+/SmartMap/Mapa Inteligente/Before Development/Defects Injected,0.0
+/SmartMap/Mapa Inteligente/HLD Review/DRL To Date,Infinity
+/SmartMap/Mapa Inteligente/Base_Parts/0/Actual Base To Date,0.0
+/SmartMap/Mapa Inteligente/Compile/DRL,0.0
+/SmartMap/Mapa Inteligente/Design Review/Estimated Defect Density,NaN
+/SmartMap/Mapa Inteligente/HLD/Defects Injected per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Code/Time,530.0
+/SmartMap/Mapa Inteligente/Design vs Code/Estimated Time Ratio,NaN
+/SmartMap/Mapa Inteligente/Design Review/Estimated Defects Injected per Hour,Infinity
+/SmartMap/Mapa Inteligente/Code/Estimated Time To Date,0.0
+/SmartMap/Mapa Inteligente/Estimated Defect Density,NaN
+/SmartMap/Mapa Inteligente/Design/Defects Injected per Hour,0.0
+/SmartMap/Mapa Inteligente/Code Review/Estimated Appraisal Rate,NaN
+/SmartMap/Mapa Inteligente/Time Estimating Error,NaN
+/SmartMap/Mapa Inteligente/Reassessment/Defects Removed To Date,0.0
+/SmartMap/Mapa Inteligente/Estimated Time/LPI To Date,0.0
+/SmartMap/Mapa Inteligente/Test/Time,69.0
+/SmartMap/Mapa Inteligente/Design Review/Defects Removed To Date,3.0E-6
+/SmartMap/Mapa Inteligente/Design/Estimated Defects Injected,0.0
+/SmartMap/Mapa Inteligente/Simple Project Tag,TAG
+/SmartMap/Mapa Inteligente/Reassessment/Estimated Time To Date,0.0
+/SmartMap/Mapa Inteligente/Base LOC,0.0
+/SmartMap/Mapa Inteligente/Size To Date,2.0E-4
+/SmartMap/Mapa Inteligente/Reassessment/Estimated Defects Removed To Date,0.0
+/SmartMap/Mapa Inteligente/Estimated Added & Modified Size/LPI To Date,0.0
+/SmartMap/Mapa Inteligente/Design Review/Estimated Time,0.0
+/SmartMap/Mapa Inteligente/Code/Defect Injection Density,Infinity
+/SmartMap/Mapa Inteligente/Normalization %/Defects Injected/PSP0-2 To Date,1.0
+/SmartMap/Mapa Inteligente/Estimated Quality_Profile_1,1.0
+/SmartMap/Mapa Inteligente/PM/Defects Removed,0.0
+/SmartMap/Mapa Inteligente/Quality_Profile_5 To Date,1.0
+/SmartMap/Mapa Inteligente/HLD Review/Appraisal Rate To Date,Infinity
+/SmartMap/Mapa Inteligente/Reassessment/Defect Density To Date,0.0
+/SmartMap/Mapa Inteligente/Design Review/Estimated Defects Injected per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Design Review vs Design/Time Ratio To Date,0.5
+/SmartMap/Mapa Inteligente/Estimated Quality_Profile_4,1.0
+/SmartMap/Mapa Inteligente/Design Review/Estimated Defects Removed per Hour,Infinity
+/SmartMap/Mapa Inteligente/Estimated Quality_Profile_5,1.0
+/SmartMap/Mapa Inteligente/Estimated Quality_Profile_2,1.0
+/SmartMap/Mapa Inteligente/Estimated Quality_Profile_3,1.0
+/SmartMap/Mapa Inteligente/Code Review/Estimated DRL To Date,NaN
+/SmartMap/Mapa Inteligente/Code Review/DRL,Infinity
+/SmartMap/Mapa Inteligente/Code/Estimated Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/Design/Node_Type,(Design)
+/SmartMap/Mapa Inteligente/Compile/Phase_Color,#ffe000
+/SmartMap/Mapa Inteligente/Reassessment/Estimated Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/ESTIMATED Time To Date,0.0
+/SmartMap/Mapa Inteligente/Design Review/Estimated Defects Injected,0.0
+/SmartMap/Mapa Inteligente/Code/Defects Removed per Hour,0.0
+/SmartMap/Mapa Inteligente/Code/Defect Density,Infinity
+/SmartMap/Mapa Inteligente/LOC per Hour To Date,25.0
+/SmartMap/Mapa Inteligente/Quality_Phase_List,Design ReviewCode ReviewCompileTest
+/SmartMap/Mapa Inteligente/Estimated % Appraisal COQ,NaN
+/SmartMap/Mapa Inteligente/Postmortem/Estimated Time To Date,0.0
+/SmartMap/Mapa Inteligente/Reassessment/Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/Design/Estimated Defects Removed,0.0
+/SmartMap/Mapa Inteligente/Design/Cumulative Defect Injection %,Infinity
+/SmartMap/Mapa Inteligente/Estimated_Time_Mismatch To Date,0.0
+/SmartMap/Mapa Inteligente/Postmortem/Estimated Defect Density To Date,Infinity
+/SmartMap/Mapa Inteligente/Base_Parts/0/Base To Date,0.0
+/SmartMap/Mapa Inteligente/HLD Review vs HLD/Estimated Time Ratio,NaN
+/SmartMap/Mapa Inteligente/Test/Estimated Defects Injected,0.0
+/SmartMap/Mapa Inteligente/Code/Time To Date,1.2E-4
+/SmartMap/Mapa Inteligente/Design Review/Cumulative Defect Removal %,Infinity
+/SmartMap/Mapa Inteligente/Planning/Defects Removed,0.0
+/SmartMap/Mapa Inteligente/Test/Defects Removed per Hour To Date,0.9999999999999999
+/SmartMap/Mapa Inteligente/Postmortem/Defect Density,Infinity
+/SmartMap/Mapa Inteligente/Code/Combined Time,530.0
+/SmartMap/Mapa Inteligente/HLD/Estimated Defects Removed To Date,0.0
+/SmartMap/Mapa Inteligente/% Appraisal COQ To Date,0.25
+/SmartMap/Mapa Inteligente/New & Changed LOC To Date,2.0E-4
+/SmartMap/Mapa Inteligente/Postmortem/Estimated Defect Injection Density To Date,Infinity
+/SmartMap/Mapa Inteligente/% New Reused To Date,0.0
+/SmartMap/Mapa Inteligente/HLD Review vs HLD/Time Ratio To Date,Infinity
+/SmartMap/Mapa Inteligente/Bottom_Up_Estimated Time To Date,NaN
+/SmartMap/Mapa Inteligente/Design/Estimated Defect Density,NaN
+/SmartMap/Mapa Inteligente/Postmortem/Estimated Defects Injected,0.0
+/SmartMap/Mapa Inteligente/Design/Estimated Defects Injected per Hour,NaN
+/SmartMap/Mapa Inteligente/HLD vs Design/Estimated Time Ratio,NaN
+/SmartMap/Mapa Inteligente/Design/Combined Defects Removed,0.0
+/SmartMap/Mapa Inteligente/Size Estimating Error To Date,Infinity
+/SmartMap/Mapa Inteligente/Estimated Quality_Profile_1 To Date,1.0
+/SmartMap/Mapa Inteligente/PROBE_TARGET_SIZE_METRIC_NAME,Added & Modified Size
+/SmartMap/Mapa Inteligente/Compile/Cumulative Defect Removal %,Infinity
+/SmartMap/Mapa Inteligente/HLD Review/Estimated Defects Removed To Date,0.0
+/SmartMap/Mapa Inteligente/Estimated New & Changed KLOC To Date,0.0
+/SmartMap/Mapa Inteligente/Estimated Added & Modified Size/UPI To Date,0.0
+/SmartMap/Mapa Inteligente/Code Review/Appraisal Rate To Date,200.0
+/SmartMap/Mapa Inteligente/Estimated Base LOC To Date,0.0
+/SmartMap/Mapa Inteligente/% COQ To Date,0.4
+/SmartMap/Mapa Inteligente/Code/Cumulative Defect Injection %,Infinity
+/SmartMap/Mapa Inteligente/Code/Estimated Defect Density,NaN
+/SmartMap/Mapa Inteligente/Base_Parts/0/Deleted To Date,0.0
+/SmartMap/Mapa Inteligente/Code Review/Estimated Defects Injected per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Quality Profile Capable,TAG
+/SmartMap/Mapa Inteligente/New & Changed KLOC,0.0
+/SmartMap/Mapa Inteligente/PSP0 Tag,TAG
+/SmartMap/Mapa Inteligente/Test/Phase_Color,#ff9900
+/SmartMap/Mapa Inteligente/FreezeFlag/.*Estimated.*,0.0
+/SmartMap/Mapa Inteligente/Added & Modified Size,0.0
+/SmartMap/Mapa Inteligente/Code Review/Defects Injected per Hour To Date,0.0
+/SmartMap/Mapa Inteligente/Test/Defects Injected,0.0
+/SmartMap/Mapa Inteligente/Design Review/Estimated Defects Removed,0.0
+/SmartMap/Mapa Inteligente/AFR,0.0
+/SmartMap/Mapa Inteligente/HLD/Estimated Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/Estimated Added & Modified Size To Date,0.0
+/SmartMap/Mapa Inteligente/Code Review/Defects Injected,0.0
+/SmartMap/Mapa Inteligente/Estimated Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/Estimated New & Changed LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Compile/Defects Injected To Date,1.0E-6
+/SmartMap/Mapa Inteligente/Planning_Is_Done To Date,1.0
+/SmartMap/Mapa Inteligente/HLD Review/Estimated Defect Density To Date,Infinity
+/SmartMap/Mapa Inteligente/Total LOC,0.0
+/SmartMap/Mapa Inteligente/Design Review/Estimated DRL,Infinity
+/SmartMap/Mapa Inteligente/Test/Defects Removed per KLOC To Date,4.999999999999999
+/SmartMap/Mapa Inteligente/Reassessment/Time To Date,0.0
+/SmartMap/Mapa Inteligente/Compile/Defect Injection Density,Infinity
+/SmartMap/Mapa Inteligente/Test/Cumulative Defect Removal % To Date,1.0
+/SmartMap/Mapa Inteligente/Code Review/Defect Density To Date,29.999999999999996
+/SmartMap/Mapa Inteligente/Test/Defect Injection Density,Infinity
+/SmartMap/Mapa Inteligente/After Development/Estimated Defects Removed,0.0
+/SmartMap/Mapa Inteligente/Postmortem/Estimated Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/Code/Estimated Defects Removed To Date,0.0
+/SmartMap/Mapa Inteligente/Reassessment/Defects Injected per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Code Review/Estimated Appraisal Rate To Date,Infinity
+/SmartMap/Mapa Inteligente/Estimated New & Changed LOC/LPI To Date,0.0
+/SmartMap/Mapa Inteligente/Test/leaf,TAG
+/SmartMap/Mapa Inteligente/Estimated Defects Removed To Date,0.0
+/SmartMap/Mapa Inteligente/SIZE_METRIC_NAME,New & Changed LOC
+/SmartMap/Mapa Inteligente/Code Review/Defects Removed,0.0
+/SmartMap/Mapa Inteligente/Reassessment/Defects Removed per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Design/Combined Defects Removed To Date,3.0E-6
+/SmartMap/Mapa Inteligente/% COQ,0.15348288075560804
+/SmartMap/Mapa Inteligente/HLD vs Design/Estimated Time Ratio To Date,Infinity
+/SmartMap/Mapa Inteligente/Compile/Force_Completed_Task_Time,0.0
+/SmartMap/Mapa Inteligente/Base Additions LOC To Date,0.0
+/SmartMap/Mapa Inteligente/PROBE_INPUT_SIZE_METRIC_NAME,Estimated Proxy Size
+/SmartMap/Mapa Inteligente/Planning/node,TAG
+/SmartMap/Mapa Inteligente/Modified LOC,0.0
+/SmartMap/Mapa Inteligente/Postmortem/Estimated Defects Removed per Hour,NaN
+/SmartMap/Mapa Inteligente/New Objects LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Design/Phase_Color,#aaaaff
+/SmartMap/Mapa Inteligente/PSP To Date Subset Prefix,/To Date/PSP/All
+/SmartMap/Mapa Inteligente/Code Review/Estimated DRL,Infinity
+/SmartMap/Mapa Inteligente/PROBE_NO_EDIT_INPUT,TAG
+/SmartMap/Mapa Inteligente/Compile/Estimated Defects Injected per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Add_Task_Handler,none
+/SmartMap/Mapa Inteligente/Test/Estimated Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/Test/Estimated Defect Density,NaN
+/SmartMap/Mapa Inteligente/Estimated Total LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Phase_List,PlanningDesignDesign ReviewCodeCode ReviewCompileTestPostmortem
+/SmartMap/Mapa Inteligente/Code Review/% Phase Yield,Infinity
+/SmartMap/Mapa Inteligente/Productivity To Date,25.0
+/SmartMap/Mapa Inteligente/PSP Project,TAG
+/SmartMap/Mapa Inteligente/Test/Estimated Defects Removed per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Planning/Defects Injected per Hour,0.0
+/SmartMap/Mapa Inteligente/Code Review/Estimated Time To Date,0.0
+/SmartMap/Mapa Inteligente/Code Review/Defect Density,Infinity
+/SmartMap/Mapa Inteligente/Code/Phase_Color,#66ff66
+/SmartMap/Mapa Inteligente/Compile/Cumulative Defect Removal % To Date,0.923076923076923
+/SmartMap/Mapa Inteligente/Code/Estimated Time,NaN
+/SmartMap/Mapa Inteligente/Postmortem/Time,0.0
+/SmartMap/Mapa Inteligente/Code Review/Cumulative Defect Removal %,Infinity
+/SmartMap/Mapa Inteligente/Reassessment/Estimated Defects Removed per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/HLD Review/Defects Removed To Date,0.0
+/SmartMap/Mapa Inteligente/PSP Rollup Eligible,TAG
+/SmartMap/Mapa Inteligente/Design Review/Estimated Time To Date,0.0
+/SmartMap/Mapa Inteligente/Estimated Size To Date,0.0
+/SmartMap/Mapa Inteligente/Quality_Profile_4 To Date,1.0000000000000002
+/SmartMap/Mapa Inteligente/PROBE_Input_Mismatch To Date,0.0
+/SmartMap/Mapa Inteligente/Code Review/Defect Injection Density,Infinity
+/SmartMap/Mapa Inteligente/PROBE_Time_Output_Mismatch To Date,0.0
+/SmartMap/Mapa Inteligente/Base Added LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Design Review/Defects Injected,0.0
+/SmartMap/Mapa Inteligente/PQI To Date,1.0
+/SmartMap/Mapa Inteligente/Estimated New & Changed KLOC,NaN
+/SmartMap/Mapa Inteligente/Planning/Estimated Defects Removed,0.0
+/SmartMap/Mapa Inteligente/Code Review/Estimated Defects Removed To Date,0.0
+/SmartMap/Mapa Inteligente/Estimated New Reused LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Test/Defects Removed,0.0
+/SmartMap/Mapa Inteligente/Total LOC To Date,2.0E-4
+/SmartMap/Mapa Inteligente/Design Review/Estimated Defect Injection Density To Date,Infinity
+/SmartMap/Mapa Inteligente/Estimated % COQ,NaN
+/SmartMap/Mapa Inteligente/Compile/Estimated Defects Injected per Hour,NaN
+/SmartMap/Mapa Inteligente/Estimated AFR,NaN
+/SmartMap/Mapa Inteligente/Code Review vs Code/Estimated Time Ratio,NaN
+/SmartMap/Mapa Inteligente/Code/node,TAG
+/SmartMap/Mapa Inteligente/Time To Date,4.8E-4
+/SmartMap/Mapa Inteligente/Code/Defects Removed per Hour To Date,0.49999999999999994
+/SmartMap/Mapa Inteligente/PSP3_Cycle_Count To Date,0.0
+/SmartMap/Mapa Inteligente/Estimated % Reused To Date,Infinity
+/SmartMap/Mapa Inteligente/Design/node,TAG
+/SmartMap/Mapa Inteligente/HLD Review/Estimated Defects Injected per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Estimated PQI To Date,1.0
+/SmartMap/Mapa Inteligente/Estimated Aggregate Size To Date,0.0
+/SmartMap/Mapa Inteligente/Compile/Defects Injected per Hour,0.0
+/SmartMap/Mapa Inteligente/Code/Combined Estimated Time To Date,0.0
+/SmartMap/Mapa Inteligente/Defects Injected,0.0
+/SmartMap/Mapa Inteligente/Test/Cumulative Defect Removal %,Infinity
+/SmartMap/Mapa Inteligente/Design/Defects Removed per Hour To Date,0.0
+/SmartMap/Mapa Inteligente/Defects Injected per Hour To Date,1.6250000000000002
+/SmartMap/Mapa Inteligente/Code/Defects Injected per Hour,0.0
+/SmartMap/Mapa Inteligente/Estimated Reused LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Design/Defect Density To Date,0.0
+/SmartMap/Mapa Inteligente/Estimated Base Added LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Appraisal_Phase_List,Design ReviewCode Review
+/SmartMap/Mapa Inteligente/Estimated Productivity To Date,Infinity
+/SmartMap/Mapa Inteligente/Estimated % Failure COQ To Date,Infinity
+/SmartMap/Mapa Inteligente/Planning/Estimated Defects Removed per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Design Review/DRL To Date,3.0000000000000004
+/SmartMap/Mapa Inteligente/PM/Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/Design/Estimated Time,NaN
+/SmartMap/Mapa Inteligente/Design Review/DRL,Infinity
+/SmartMap/Mapa Inteligente/CPI,NaN
+/SmartMap/Mapa Inteligente/PM/Time To Date,2.4E-5
+/SmartMap/Mapa Inteligente/Normalization %/Time/PSP3cycle To Date,0.9
+/SmartMap/Mapa Inteligente/Design Review/% Phase Yield To Date,0.75
+/SmartMap/Mapa Inteligente/Code/Estimated Defect Injection Density,NaN
+/SmartMap/Mapa Inteligente/Estimated Additions LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Design/Estimated Defects Removed per Hour,NaN
+/SmartMap/Mapa Inteligente/Design Review/Estimated Defects Removed per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/HLD Review/Estimated Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/Test/Estimated Defects Removed,0.0
+/SmartMap/Mapa Inteligente/HLD/Defects Removed per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Code Review/Estimated Time,0.0
+/SmartMap/Mapa Inteligente/Postmortem/Defects Removed per Hour,Infinity
+/SmartMap/Mapa Inteligente/AGGR_SIZE_METRIC_NAME_ABBR,KLOC
+/SmartMap/Mapa Inteligente/Design/Defect Injection Density To Date,19.999999999999996
+/SmartMap/Mapa Inteligente/Compile/Estimated Defects Removed,0.0
+/SmartMap/Mapa Inteligente/HLD vs Design/Time Ratio To Date,0.0
+/SmartMap/Mapa Inteligente/Design Review/Estimated Defect Injection Density,NaN
+/SmartMap/Mapa Inteligente/HLD/Time To Date,0.0
+/SmartMap/Mapa Inteligente/Planning/Defects Removed per Hour To Date,0.0
+/SmartMap/Mapa Inteligente/Postmortem/Estimated Defects Injected per Hour,NaN
+/SmartMap/Mapa Inteligente/PM/Defects Removed To Date,0.0
+/SmartMap/Mapa Inteligente/Test/Defect Injection Density To Date,0.0
+/SmartMap/Mapa Inteligente/Design vs Code/Time Ratio,0.07924528301886792
+/SmartMap/Mapa Inteligente/Compile/Defects Injected per Hour To Date,4.999999999999999
+/SmartMap/Mapa Inteligente/Compile/Estimated Defect Injection Density To Date,Infinity
+/SmartMap/Mapa Inteligente/HLD/Phase_Color,#cc66ff
+/SmartMap/Mapa Inteligente/New_Objects_Prefix_List To Date,/To Date/PSP/All/New Objects/0
+/SmartMap/Mapa Inteligente/Quality_Profile_1,0.07924528301886792
+/SmartMap/Mapa Inteligente/Child_List,PlanningDesignDesign ReviewCodeCode ReviewCompileTestPostmortem
+/SmartMap/Mapa Inteligente/Quality_Profile_2,0.0
+/SmartMap/Mapa Inteligente/Code Review/Appraisal Rate,Infinity
+/SmartMap/Mapa Inteligente/Quality_Profile_3,1.0
+/SmartMap/Mapa Inteligente/Quality_Profile_4,1.0
+/SmartMap/Mapa Inteligente/Code Review/Estimated Defect Injection Density,NaN
+/SmartMap/Mapa Inteligente/Quality_Profile_5,0.0
+/SmartMap/Mapa Inteligente/Test/Estimated Defects Removed per Hour,NaN
+/SmartMap/Mapa Inteligente/PM/Time,0.0
+/SmartMap/Mapa Inteligente/HLD Review/Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/Code Review/Time To Date,6.0E-5
+/SmartMap/Mapa Inteligente/Test/Defects Injected per Hour,0.0
+/SmartMap/Mapa Inteligente/Postmortem/leaf,TAG
+/SmartMap/Mapa Inteligente/Before Development/Estimated Defects Injected To Date,NaN
+/SmartMap/Mapa Inteligente/Compile/Estimated Defect Density,NaN
+/SmartMap/Mapa Inteligente/Test/Node_Type,(Test)
+/SmartMap/Mapa Inteligente/Normalization %/Defects Removed/PSP3cycle To Date,1.0
+/SmartMap/Mapa Inteligente/Planning/Estimated Time,NaN
+/SmartMap/Mapa Inteligente/Defects per KLOC To Date,64.99999999999999
+/SmartMap/Mapa Inteligente/PROBE_Size_Output_Mismatch To Date,0.0
+/SmartMap/Mapa Inteligente/Yield_Phase_List,PlanningDesignDesign ReviewCodeCode Review
+/SmartMap/Mapa Inteligente/HLD Review/Estimated Time To Date,0.0
+/SmartMap/Mapa Inteligente/Reused Objects/0/Actual LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Estimated Yield,Infinity
+/SmartMap/Mapa Inteligente/Normalization %/Defects Removed/PSP3 To Date,1.0
+/SmartMap/Mapa Inteligente/Design Review/Cumulative Defect Removal % To Date,0.23076923076923078
+/SmartMap/Mapa Inteligente/Code/Node_Type,(Code)
+/SmartMap/Mapa Inteligente/Planning/Estimated Time To Date,0.0
+/SmartMap/Mapa Inteligente/Estimated Defects Removed,0.0
+/SmartMap/Mapa Inteligente/Compile/Estimated Defect Density To Date,Infinity
+/SmartMap/Mapa Inteligente/Estimated % COQ To Date,Infinity
+/SmartMap/Mapa Inteligente/Modified LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Compile/Estimated Defects Removed per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Test/Estimated Time To Date,0.0
+/SmartMap/Mapa Inteligente/HLD/Defect Injection Density To Date,0.0
+/SmartMap/Mapa Inteligente/HLD/Estimated Defects Injected per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Test/Estimated Defects Removed per KLOC To Date,Infinity
+/SmartMap/Mapa Inteligente/Added & Modified Size To Date,2.0E-4
+/SmartMap/Mapa Inteligente/Postmortem/Defects Removed To Date,0.0
+/SmartMap/Mapa Inteligente/Code/Combined Defects Removed To Date,7.0E-6
+/SmartMap/Mapa Inteligente/Compile/Estimated Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/Reused_Objects_Prefix_List To Date,/To Date/PSP/All/Reused Objects/0
+/SmartMap/Mapa Inteligente/Estimated Quality_Profile_2 To Date,1.0
+/SmartMap/Mapa Inteligente/Overhead_Phase_List,PlanningPostmortem
+/SmartMap/Mapa Inteligente/Compile/DRL To Date,10.0
+/SmartMap/Mapa Inteligente/Normalization %/Defects Removed/PSP0-2 To Date,1.0
+/SmartMap/Mapa Inteligente/Design Review/% Phase Yield,Infinity
+/SmartMap/Mapa Inteligente/Estimated New & Changed LOC/UPI To Date,0.0
+/SmartMap/Mapa Inteligente/Planning/Estimated Defect Injection Density To Date,Infinity
+/SmartMap/Mapa Inteligente/Design/Estimated Defects Injected per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Compile/Node_Type,(Compile)
+/SmartMap/Mapa Inteligente/Postmortem/Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/Compile/Force_Completed_Task_Time To Date,0.0
+/SmartMap/Mapa Inteligente/Postmortem/Estimated Time,NaN
+/SmartMap/Mapa Inteligente/Estimated Defects Injected,0.0
+/SmartMap/Mapa Inteligente/Before Development/Estimated Defects Injected,0.0
+/SmartMap/Mapa Inteligente/Planning/Phase_Color,#cdaa7d
+/SmartMap/Mapa Inteligente/Estimated Defect Density To Date,Infinity
+/SmartMap/Mapa Inteligente/Base_Additions_Prefix_List To Date,
+/SmartMap/Mapa Inteligente/Reused LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Design/Defects Removed To Date,0.0
+/SmartMap/Mapa Inteligente/HLD/Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/Code Review/Estimated Defects Removed,0.0
+/SmartMap/Mapa Inteligente/Compile/Estimated Defects Removed per Hour,NaN
+/SmartMap/Mapa Inteligente/Design Review/Estimated Defect Density To Date,Infinity
+/SmartMap/Mapa Inteligente/Test/Time To Date,6.0E-5
+/SmartMap/Mapa Inteligente/Normalized_Estimated_Defects_Injected To Date,NaN
+/SmartMap/Mapa Inteligente/Code Review/Defects Removed per Hour,Infinity
+/SmartMap/Mapa Inteligente/HLD/Defect Density To Date,0.0
+/SmartMap/Mapa Inteligente/Code Review/Estimated Defects Injected per Hour,Infinity
+/SmartMap/Mapa Inteligente/Reassessment/Estimated Defect Injection Density To Date,Infinity
+/SmartMap/Mapa Inteligente/Design/Defects Injected,0.0
+/SmartMap/Mapa Inteligente/Code/Cumulative Defect Injection % To Date,0.9230769230769229
+/SmartMap/Mapa Inteligente/Design Review/Estimated Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/HLD Review/Estimated Appraisal Rate To Date,Infinity
+/SmartMap/Mapa Inteligente/Code Review/Time,0.0
+/SmartMap/Mapa Inteligente/HLD vs Design/Time Ratio,NaN
+/SmartMap/Mapa Inteligente/Design/Defects Removed,0.0
+/SmartMap/Mapa Inteligente/Before Development/Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/Compile/Time,61.0
+/SmartMap/Mapa Inteligente/HLD Review vs HLD/Time Ratio,NaN
+/SmartMap/Mapa Inteligente/Defects Injected To Date,1.3000000000000001E-5
+/SmartMap/Mapa Inteligente/Compile/Estimated Defects Removed To Date,0.0
+/SmartMap/Mapa Inteligente/Design/leaf,TAG
+/SmartMap/Mapa Inteligente/Base_Parts/0/Actual Modified To Date,0.0
+/SmartMap/Mapa Inteligente/Productivity,0.0
+/SmartMap/Mapa Inteligente/Reassessment/Estimated Defects Injected per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/% Reused To Date,0.0
+/SmartMap/Mapa Inteligente/Test/Defect Density,Infinity
+/SmartMap/Mapa Inteligente/Compile/Defects Injected,0.0
+/SmartMap/Mapa Inteligente/Code/Defects Removed To Date,1.0E-6
+/SmartMap/Mapa Inteligente/Estimated Quality_Profile_3 To Date,1.0
+/SmartMap/Mapa Inteligente/Design/Estimated Defect Density To Date,Infinity
+/SmartMap/Mapa Inteligente/Code/Defects Injected To Date,8.0E-6
+/SmartMap/Mapa Inteligente/Design Review/Time,0.0
+/SmartMap/Mapa Inteligente/node,TAG
+/SmartMap/Mapa Inteligente/Defect Density To Date,64.99999999999999
+/SmartMap/Mapa Inteligente/Time Estimating Error To Date,Infinity
+/SmartMap/Mapa Inteligente/Design Review/Defect Injection Density To Date,0.0
+/SmartMap/Mapa Inteligente/Defects Removed per Hour To Date,1.625
+/SmartMap/Mapa Inteligente/Compile/Defects Removed,0.0
+/SmartMap/Mapa Inteligente/AGGR_SIZE_METRIC_NAME,New & Changed KLOC
+/SmartMap/Mapa Inteligente/Deleted LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Estimated Defects Removed per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Planning/Defect Injection Density To Date,0.0
+/SmartMap/Mapa Inteligente/Design/Estimated Defect Injection Density,NaN
+/SmartMap/Mapa Inteligente/Code/Estimated Defects Removed per Hour,NaN
+/SmartMap/Mapa Inteligente/Compile/Estimated Time,NaN
+/SmartMap/Mapa Inteligente/Postmortem/Defects Injected per Hour,Infinity
+/SmartMap/Mapa Inteligente/Development_Phase_List,DesignCode
+/SmartMap/Mapa Inteligente/Postmortem/Estimated Defect Injection Density,NaN
+/SmartMap/Mapa Inteligente/Code Review/Estimated Defect Density,NaN
+/SmartMap/Mapa Inteligente/Reassessment/Estimated Defect Density To Date,Infinity
+/SmartMap/Mapa Inteligente/Estimated Aggregate Size,NaN
+/SmartMap/Mapa Inteligente/Reused LOC,0.0
+/SmartMap/Mapa Inteligente/Planning/Estimated Defect Density,NaN
+/SmartMap/Mapa Inteligente/Design Review/Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/Code Review vs Code/Estimated Time Ratio To Date,Infinity
+/SmartMap/Mapa Inteligente/Design/Cumulative Defect Injection % To Date,0.30769230769230765
+/SmartMap/Mapa Inteligente/Postmortem/Defects Injected,0.0
+/SmartMap/Mapa Inteligente/Normalization %/Defects Injected/PSP3 To Date,1.0
+/SmartMap/Mapa Inteligente/Planning/Estimated Defects Injected per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/New & Changed LOC,0.0
+/SmartMap/Mapa Inteligente/PQI,0.0
+/SmartMap/Mapa Inteligente/Reassessment/Defect Injection Density To Date,0.0
+/SmartMap/Mapa Inteligente/Design Review vs Design/Time Ratio,0.0
+/SmartMap/Mapa Inteligente/Code/Estimated Defects Injected,0.0
+/SmartMap/Mapa Inteligente/Design Review/Defects Removed,0.0
+/SmartMap/Mapa Inteligente/Compile/Estimated Defects Injected,0.0
+/SmartMap/Mapa Inteligente/Planning/Time,145.0
+/SmartMap/Mapa Inteligente/Yield,Infinity
+/SmartMap/Mapa Inteligente/Planning/Defect Injection Density,Infinity
+/SmartMap/Mapa Inteligente/Test/Defects Removed To Date,1.0E-6
+/SmartMap/Mapa Inteligente/Estimated Productivity,NaN
+/SmartMap/Mapa Inteligente/Estimated % Appraisal COQ To Date,Infinity
+/SmartMap/Mapa Inteligente/Compile/Defects Removed per Hour,0.0
+/SmartMap/Mapa Inteligente/Test/Estimated Defects Removed To Date,0.0
+/SmartMap/Mapa Inteligente/Planning/Defects Removed To Date,0.0
+/SmartMap/Mapa Inteligente/Normalization %/Time/PSP0-2 To Date,1.0
+/SmartMap/Mapa Inteligente/Last_Failure_Phase,Test
+/SmartMap/Mapa Inteligente/Code/Estimated Defect Injection Density To Date,Infinity
+/SmartMap/Mapa Inteligente/HLD Review/Defect Injection Density To Date,0.0
+/SmartMap/Mapa Inteligente/Planning/Node_Type,(Planning)
+/SmartMap/Mapa Inteligente/Design/Time,42.0
+/SmartMap/Mapa Inteligente/Design/Defects Injected To Date,4.0E-6
+/SmartMap/Mapa Inteligente/Code Review/Estimated Defect Density To Date,Infinity
+/SmartMap/Mapa Inteligente/Design/Estimated Defects Removed per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/% Appraisal COQ,0.0
+/SmartMap/Mapa Inteligente/Compile/leaf,TAG
+/SmartMap/Mapa Inteligente/New & Changed KLOC To Date,2.0000000000000002E-7
+/SmartMap/Mapa Inteligente/Estimated Proxy Size To Date,0.0
+/SmartMap/Mapa Inteligente/Design Review/Appraisal Rate,Infinity
+/SmartMap/Mapa Inteligente/Code/Estimated Defects Removed,0.0
+/SmartMap/Mapa Inteligente/Estimated Object LOC To Date,0.0
+/SmartMap/Mapa Inteligente/New Reused LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Design/Combined Time,42.0
+/SmartMap/Mapa Inteligente/HLD Review/Estimated DRL To Date,NaN
+/SmartMap/Mapa Inteligente/Design Review/Estimated Appraisal Rate,NaN
+/SmartMap/Mapa Inteligente/Compile/Defects Removed To Date,2.0E-6
+/SmartMap/Mapa Inteligente/Code/Combined Defects Injected To Date,8.0E-6
+/SmartMap/Mapa Inteligente/Postmortem/Node_Type,(Postmortem)
+/SmartMap/Mapa Inteligente/Compile/Defect Density,Infinity
+/SmartMap/Mapa Inteligente/Base_Parts/0/Added To Date,0.0
+/SmartMap/Mapa Inteligente/% Failure COQ To Date,0.15
+/SmartMap/Mapa Inteligente/HLD/Estimated Time To Date,0.0
+/SmartMap/Mapa Inteligente/Time,847.0
+/SmartMap/Mapa Inteligente/Reused Objects/0/LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Design/Defects Injected per Hour To Date,1.9999999999999998
+/SmartMap/Mapa Inteligente/FILES_XML,,/pspDoc/custom.xml,/pspDoc/files.xml,
+/SmartMap/Mapa Inteligente/Added LOC,0.0
+/SmartMap/Mapa Inteligente/Defects Removed To Date,1.3E-5
+/SmartMap/Mapa Inteligente/Deleted LOC,0.0
+/SmartMap/Mapa Inteligente/After Development/Estimated Defects Removed To Date,NaN
+/SmartMap/Mapa Inteligente/PSP3_Cycle_Size To Date,0.0
+/SmartMap/Mapa Inteligente/Postmortem/Phase_Color,#996633
+/SmartMap/Mapa Inteligente/Code/Defect Injection Density To Date,39.99999999999999
+/SmartMap/Mapa Inteligente/Added LOC To Date,2.0E-4
+/SmartMap/Mapa Inteligente/Code/Estimated Defect Density To Date,Infinity
+/SmartMap/Mapa Inteligente/Planning/Defects Injected per Hour To Date,0.0
+/SmartMap/Mapa Inteligente/Yield To Date,0.8333333333333333
+/SmartMap/Mapa Inteligente/Test/Estimated Time,NaN
+/SmartMap/Mapa Inteligente/Compile/Estimated DRL,NaN
+/SmartMap/Mapa Inteligente/Base_Parts/0/Actual Added To Date,0.0
+/SmartMap/Mapa Inteligente/Design Review vs Design/Estimated Time Ratio To Date,Infinity
+/SmartMap/Mapa Inteligente/CPI To Date,0.0
+/SmartMap/Mapa Inteligente/Test/Estimated Defects Injected per Hour,NaN
+/SmartMap/Mapa Inteligente/Estimated Base Additions LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Planning/leaf,TAG
+/SmartMap/Mapa Inteligente/Design Review/Phase_Color,#6666ff
+/SmartMap/Mapa Inteligente/Estimated % Failure COQ,NaN
+/SmartMap/Mapa Inteligente/Planning/Estimated Defects Injected per Hour,NaN
+/SmartMap/Mapa Inteligente/Process_ID,PSP0
+/SmartMap/Mapa Inteligente/AFR To Date,1.6666666666666667
+/SmartMap/Mapa Inteligente/Estimated Deleted LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Base_Parts/0/Actual Deleted To Date,0.0
+/SmartMap/Mapa Inteligente/Defects Removed per KLOC To Date,64.99999999999999
+/SmartMap/Mapa Inteligente/Code/Combined Time To Date,1.8E-4
+/SmartMap/Mapa Inteligente/SIZE_METRIC_NAME_ABBR,LOC
+/SmartMap/Mapa Inteligente/Quality_Profile_3 To Date,1.0000000000000002
+/SmartMap/Mapa Inteligente/HLD Review/Estimated Defects Removed per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/In_Postmortem,0.0
+/SmartMap/Mapa Inteligente/Estimated Time,NaN
+/SmartMap/Mapa Inteligente/Estimated Time To Date,0.0
+/SmartMap/Mapa Inteligente/Compile/node,TAG
+/SmartMap/Mapa Inteligente/New Reused LOC,0.0
+/SmartMap/Mapa Inteligente/PSP0,TAG
+/SmartMap/Mapa Inteligente/Design Review/Defect Density To Date,14.999999999999998
+/SmartMap/Mapa Inteligente/Estimated Added LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Postmortem/Defects Removed per Hour To Date,0.0
+/SmartMap/Mapa Inteligente/Design Review/Estimated DRL To Date,NaN
+/SmartMap/Mapa Inteligente/Test/Estimated Defect Density To Date,Infinity
+/SmartMap/Mapa Inteligente/Test/Defects Injected per Hour To Date,0.0
+/SmartMap/Mapa Inteligente/Design/Defect Injection Density,Infinity
+/SmartMap/Mapa Inteligente/Code Review vs Code/Time Ratio To Date,0.5
+/SmartMap/Mapa Inteligente/Test/Defect Density To Date,4.999999999999999
+/SmartMap/Mapa Inteligente/PM/Defects Injected,0.0
+/SmartMap/Mapa Inteligente/Quality_Profile_1 To Date,1.0
+/SmartMap/Mapa Inteligente/Code/Combined Defects Removed,0.0
+/SmartMap/Mapa Inteligente/Postmortem/Time To Date,2.4E-5
+/SmartMap/Mapa Inteligente/Normalization %/Time/PSP3 To Date,1.0
+/SmartMap/Mapa Inteligente/Normalized_Estimated_Defects_Removed To Date,NaN
+/SmartMap/Mapa Inteligente/Code Review/DRL To Date,6.000000000000001
+/SmartMap/Mapa Inteligente/PSP3_Cycle_Even_Time To Date,Infinity
+/SmartMap/Mapa Inteligente/Code Review/Defect Injection Density To Date,0.0
+/SmartMap/Mapa Inteligente/Estimated New Objects LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Estimated LOC per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Estimated AFR To Date,Infinity
+/SmartMap/Mapa Inteligente/Code Review/% Phase Yield To Date,0.7499999999999999
+/SmartMap/Mapa Inteligente/HLD Review/Phase_Color,#990099
+/SmartMap/Mapa Inteligente/Estimated Defect Injection Density To Date,Infinity
+/SmartMap/Mapa Inteligente/Postmortem/Defects Injected per Hour To Date,0.0
+/SmartMap/Mapa Inteligente/Test/Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/Code/Estimated Defects Injected per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Code Review vs Code/Time Ratio,0.0
+/SmartMap/Mapa Inteligente/psp0,TAG
+/SmartMap/Mapa Inteligente/Design/Combined Estimated Time To Date,0.0
+/SmartMap/Mapa Inteligente/Base LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Estimated % New Reused To Date,Infinity
+/SmartMap/Mapa Inteligente/Code Review/Estimated Defects Removed per Hour,Infinity
+/SmartMap/Mapa Inteligente/Defect Injection Density To Date,65.0
+/SmartMap/Mapa Inteligente/Design Review/Defects Removed per Hour To Date,3.0
+/SmartMap/Mapa Inteligente/Design/Estimated Time To Date,0.0
+/SmartMap/Mapa Inteligente/Estimated Yield To Date,Infinity
+/SmartMap/Mapa Inteligente/Design/Estimated Defect Injection Density To Date,Infinity
+/SmartMap/Mapa Inteligente/Code/Combined Defects Injected,0.0
+/SmartMap/Mapa Inteligente/HLD Review/Defect Density To Date,0.0
+/SmartMap/Mapa Inteligente/HLD/Estimated Defects Removed per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Planning/Estimated Defects Removed To Date,0.0
+/SmartMap/Mapa Inteligente/Postmortem/Estimated Defect Density,NaN
+/SmartMap/Mapa Inteligente/Design/Combined Defects Injected To Date,4.0E-6
+/SmartMap/Mapa Inteligente/Test/node,TAG
+/SmartMap/Mapa Inteligente/Aggregate Size To Date,2.0000000000000002E-7
+/SmartMap/Mapa Inteligente/Planning/Defect Density,Infinity
+/SmartMap/Mapa Inteligente/Design Review/Defect Injection Density,Infinity
+/SmartMap/Mapa Inteligente/Postmortem/Defect Injection Density,Infinity
+/SmartMap/Mapa Inteligente/Postmortem/Defect Density To Date,0.0
+/SmartMap/Mapa Inteligente/Planning/Time To Date,2.4E-5
+/SmartMap/Mapa Inteligente/Additions LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Design/Time To Date,1.2E-4
+/SmartMap/Mapa Inteligente/Planning/Estimated Defect Density To Date,Infinity
+/SmartMap/Mapa Inteligente/Postmortem/Estimated Defects Removed per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Test/Defects Removed per Hour,0.0
+/SmartMap/Mapa Inteligente/Test/Estimated Defects Injected per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Code Review/Estimated Defects Removed per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Compile/Defects Removed per Hour To Date,9.999999999999998
+/SmartMap/Mapa Inteligente/PSP Project Document Directory,?????
+/SmartMap/Mapa Inteligente/HLD/Estimated Defect Density To Date,Infinity
+/SmartMap/Mapa Inteligente/Use_Rollup,PSP
+/SmartMap/Mapa Inteligente/Estimated Time/UPI To Date,0.0
+/SmartMap/Mapa Inteligente/Estimated Quality_Profile_4 To Date,1.0
+/SmartMap/Mapa Inteligente/HLD Review/Estimated Defect Injection Density To Date,Infinity
+/SmartMap/Mapa Inteligente/Planning/Defects Removed per Hour,0.0
+/SmartMap/Mapa Inteligente/Compile/Time To Date,1.2E-5
+/SmartMap/Mapa Inteligente/Estimated Modified LOC To Date,0.0
+/SmartMap/Mapa Inteligente/Normalized_Estimated_Time To Date,NaN
+/SmartMap/Mapa Inteligente/HLD/Defects Removed To Date,0.0
+/SmartMap/Mapa Inteligente/Failure_Phase_List,CompileTest
+/SmartMap/Mapa Inteligente/Compile/Estimated Defect Injection Density,NaN
+/SmartMap/Mapa Inteligente/Postmortem/Estimated Defects Removed,0.0
+/SmartMap/Mapa Inteligente/Design/Defect Density,Infinity
+/SmartMap/Mapa Inteligente/PSP3_Cycle_Time_Ratio To Date,Infinity
+/SmartMap/Mapa Inteligente/HLD/Estimated Defect Injection Density To Date,Infinity
+/SmartMap/Mapa Inteligente/Size Estimating Error,NaN
+/SmartMap/Mapa Inteligente/Base_Parts_Prefix_List To Date,/To Date/PSP/All/Base_Parts/0
+/SmartMap/Mapa Inteligente/PSP3_Cycle_Est_Time To Date,0.0
+/SmartMap/Mapa Inteligente/Postmortem/Estimated Defects Removed To Date,0.0
+/SmartMap/Mapa Inteligente/Code/Estimated Defects Removed per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Estimated Defects Injected per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Test/Estimated Defect Injection Density,NaN
+/SmartMap/Mapa Inteligente/Has Compile Phase,TAG
+/SmartMap/Mapa Inteligente/Quality_Profile_2 To Date,1.0
+/SmartMap/Mapa Inteligente/HLD Review vs HLD/Estimated Time Ratio To Date,Infinity
+/SmartMap/Mapa Inteligente/Design Review/Estimated Appraisal Rate To Date,Infinity
+/SmartMap/Mapa Inteligente/In_Postmortem To Date,1.0
+/SmartMap/Mapa Inteligente/Code/Defects Injected,0.0
+/SmartMap/Mapa Inteligente/Design/Total Time To Date,1.8E-4
+/SmartMap/Mapa Inteligente/Estimated Quality_Profile_5 To Date,1.0
+/SmartMap/Mapa Inteligente/Design Review/Estimated Defects Removed To Date,0.0
+/SmartMap/Mapa Inteligente/Planning/Defect Density To Date,0.0
+/SmartMap/Mapa Inteligente/Code/leaf,TAG
+/SmartMap/Mapa Inteligente/After Development/Defects Removed To Date,0.0
+/SmartMap/Mapa Inteligente/Compile/Estimated DRL To Date,NaN
+/SmartMap/Mapa Inteligente/Aggregate Size,0.0
+/SmartMap/Mapa Inteligente/Reassessment/Phase_Color,#cdaa7d
+/SmartMap/Mapa Inteligente/Normalization %/Defects Injected/PSP3cycle To Date,1.0
+/SmartMap/Mapa Inteligente/% Failure COQ,0.15348288075560804
+/SmartMap/Mapa Inteligente/Defect Density,Infinity
+/SmartMap/Mapa Inteligente/HLD Review/Defects Injected per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Design/Estimated Defects Removed To Date,0.0
+/SmartMap/Mapa Inteligente/Compile/Defect Density To Date,9.999999999999998
+/SmartMap/Mapa Inteligente/Code Review/Estimated Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/Planning/Estimated Defects Removed per Hour,NaN
+/SmartMap/Mapa Inteligente/Code Review/Defects Removed To Date,6.0E-6
+/SmartMap/Mapa Inteligente/Defects Removed,0.0
+/SmartMap/Mapa Inteligente/HLD Review/Defects Removed per Hour To Date,Infinity
+/SmartMap/Mapa Inteligente/Postmortem/Defects Removed,0.0
+/SmartMap/Mapa Inteligente/Code Review/Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/Compile/Defect Injection Density To Date,4.999999999999999
+/SmartMap/Mapa Inteligente/Code Review/Estimated Defect Injection Density To Date,Infinity
+/SmartMap/Mapa Inteligente/PM/Estimated Time To Date,0.0
+/SmartMap/Mapa Inteligente/Code Review/Estimated Defects Injected,0.0
+/SmartMap/Mapa Inteligente/Phase_Display_Filter_List,PlanningDesignCodeCompileTestPostmortem
+/SmartMap/Mapa Inteligente/Estimated PQI,1.0
+/SmartMap/Mapa Inteligente/Estimated Defects Removed per KLOC To Date,Infinity
+/SmartMap/Mapa Inteligente/Planning/Defects Injected,0.0
+/SmartMap/Mapa Inteligente/Design/Combined Time To Date,1.8E-4
+/SmartMap/Mapa Inteligente/Planning/Estimated Defects Injected To Date,0.0
+/SmartMap/Mapa Inteligente/Test/Started,feb 26, 2021 05:13:18 PM
+/SmartMap/Mapa Inteligente/Started,feb 20, 2021 11:10:22 AM
+/SmartMap/Mapa Inteligente/Design/Started,feb 26, 2021 05:03:09 PM
+/SmartMap/Started,feb 20, 2021 11:10:22 AM
+/SmartMap/Mapa Inteligente/Code/Started,feb 20, 2021 12:17:30 PM
+/SmartMap/Mapa Inteligente/Compile/Started,feb 26, 2021 04:01:57 PM
+/SmartMap/Mapa Inteligente/Code/Team_Note,<note timestamp='@1613841500107' format='text'>Codificación y enlace del csv para mostrar todos los requerimientos</note>
+/SmartMap/Data_Activity_Timestamp,feb 26, 2021 06:22:27 PM
+/SmartMap/node,TAG
+/SmartMap/Mapa Inteligente/Planning/Started,feb 20, 2021 11:10:22 AM
+!feb 20, 2021 11:10:22 AM!,67
+!feb 20, 2021 12:17:30 PM!,299
+!feb 20, 2021 05:16:48 PM!,78
+!feb 21, 2021 01:47:46 PM!,231
+!feb 26, 2021 04:01:57 PM!,61
+!feb 26, 2021 05:03:09 PM!,10
+!feb 26, 2021 05:13:18 PM!,69
+!feb 26, 2021 06:22:27 PM!,32
+<!-- start defects -->
+<defects>
+</defects>

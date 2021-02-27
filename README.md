@@ -9,7 +9,14 @@ Report of the hospitals in the department of Antioquia in Colombia, showing a da
 
 
 PSP Alejandro Arce https://github.com/Alexadrito10/Antioquia-Hospitals/blob/master/Antioquia_Hospitals/docs/pspAntioquiaHospitals-Alejandro_Arce.pdash
+                                                                                                                                                  
+PSP Alexander Samacá https://github.com/Alexadrito10/Antioquia-Hospitals/blob/master/Antioquia_Hospitals/docs/Alexander%20Samac%C3%A1%20AntioquiaHospitals.pdash
+                                                                       
+Video about the program https://youtu.be/IGA82vwlqEw
+                                             
 
+Documentation  https://github.com/Alexadrito10/Antioquia-Hospitals/blob/master/Antioquia_Hospitals/docs/Documentaci%C3%B3n%20.docx
+                                                                                                                                                 
 Autors:                                                                                                       
 Alexander Samacá Burbano (https://github.com/Alexadrito10)                                                           
 Alejandro Arce Rendón (https://github.com/alejandroarce03)
